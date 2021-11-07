@@ -1,19 +1,13 @@
-# Project Milestone 2
+# Comparison between gender representations in UKs newspapers 
+## Project Milestone 2
+Idea:
 
-2) How differently are women represented in English newspapers compared to men? The first aspect to consider is the proportion of quotation written by women against men. Then, we could try to determine which subjects are more present in men quotations compared to women's, in order to see if we can see some differences. We could perform some unsupervised pattern matching to classify the subjects of articles, as different subjects represent different patterns. 
-
-- partager hommes/femmes, question du non-binaire, est-ce qu'on les retrouve dans les attributs du dataset supplémentaire.
-- séparer les types de journaux
-- 
+How differently are women represented in English newspapers compared to men? The first aspect to consider is the proportion of quotation written by women against men. Then, we could try to determine which subjects are more present in men quotations compared to women's, in order to see if we can see some differences. We could perform some unsupervised pattern matching to classify the subjects of articles, as different subjects represent different patterns. 
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-Title : 
-Comparison between gender representations in [COUNTRY] newspapers 
-
+## What we have to do
 Abstract: A 150 word description of the project idea and goals. What’s the motivation behind your project? What story would you like to tell, and why?
-
-How differently are women represented in English newspapers compared to men? The first aspect to consider is the proportion of quotation written by women against men. Then, we could try to determine which subjects are more present in men quotations compared to women's, in order to see if we can see some differences. We could perform some unsupervised pattern matching to classify the subjects of articles, as different subjects represent different patterns.
 
 Research Questions: A list of research questions you would like to address during the project.
 - Over time span 2015-2020, which newspaper have the most/least equally distributed author gender?
@@ -26,9 +20,7 @@ Research Questions: A list of research questions you would like to address durin
 Proposed additional datasets (if any): List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible.
 Speaker attributes
 
-
 Methods
-Unsupervised pattern matching
 
 Proposed timeline
 
