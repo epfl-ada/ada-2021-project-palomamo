@@ -1,4 +1,4 @@
-data/
-raw_data/
+Quotebank/
+Project\ datasets/
+Filtered\ data/
 .ipynb_checkpoints/
-!.gitignore
