@@ -25,7 +25,7 @@ Gender representation in most work-related domains has for a long time been larg
  ## Proposed timeline
  
  - by November 20th : extract information about distribution of genders for all years, and for each newspaper.
- - by November 30th : find the right machine learning algorithm and fit it to our model, extract the different categories of our quotes.
+ - by November 30th : test different machine learning algorithm to find the best one and fit it to our model, extract the different categories of our quotes.
  - by December 6th : extract information about gender distribution depending on the subject.
  - by December 12th : compare the information we got until here with another country (India?).
  - by December 17th (Milestone 3) : Fix remaining errors, clean up our analysis and present our findings.
