@@ -39,21 +39,21 @@ We do most of the work simultaneously as a team but we will try to divide the ta
 - Moritz Waldleben: Interpret information of the model fitting and add a subject information for each quote, analyze distribution of genders regarding that information.
 - Paloma Cito: Comparison with quotes from Indian newspapers, analysis of the differences observed.
 
---------------------------------------------- MILESTON 3 -----------------------------------------------------
-1. Choisir x pays, 10-15 newspapers par pays, et distributions de genres par pays 
-2. Refaire datasets pour chaque année, séparés pour chaque pays (2020-uk,2020-us,etc)
-3. Voir statistiques de chaque dataset
-4. Faire analyses indépendantes des catégories
-5. Finaliser algorithme de classification
-6. Créer dataset pour train l’algo (random quotes de chaque pays et années)
-7. Le train sur un dataset assez grand, décider les catégories finales et les ajouter comme colonne aux dataframes
-8. Prédire les catégories avec le model pour tous les autres datasets 
-9. Faire analyses par rapport aux catégories
-10. Faire le data story final
-11. Clean le notebook et tout mettre ensemble
-12. Update readme
+## Project Milestone 3
+ 1. Choisir x pays, 10-15 newspapers par pays, et distributions de genres par pays 
+ 2. Refaire datasets pour chaque année, séparés pour chaque pays (2020-uk,2020-us,etc)
+ 3. Voir statistiques de chaque dataset
+ 4. Faire analyses indépendantes des catégories
+ 5. Finaliser algorithme de classification
+ 6. Créer dataset pour train l’algo (random quotes de chaque pays et années)
+ 7. Le train sur un dataset assez grand, décider les catégories finales et les ajouter comme colonne aux dataframes
+ 8. Prédire les catégories avec le model pour tous les autres datasets 
+ 9. Faire analyses par rapport aux catégories
+ 10. Faire le data story final
+ 11. Clean le notebook et tout mettre ensemble
+ 12. Update readme
 
-#1. Country choices: 5 countries with a large population and from different continents
+1. Country choices: 5 countries with a large population and from different continents
 https://en.wikipedia.org/wiki/List_of_countries_and_territories_where_English_is_an_official_language
 - United States, North america, english as primary language, population: 328,239,523
 - United Kingdom, Europe, english as primary language, population: 66,040,229
