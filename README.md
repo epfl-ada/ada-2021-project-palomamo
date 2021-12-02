@@ -38,3 +38,86 @@ We do most of the work simultaneously as a team but we will try to divide the ta
 - Marie Knoepfel: Find a machine learning algorithm to classify our quotes and fit it to our model.
 - Moritz Waldleben: Interpret information of the model fitting and add a subject information for each quote, analyze distribution of genders regarding that information.
 - Paloma Cito: Comparison with quotes from Indian newspapers, analysis of the differences observed.
+
+--------------------------------------------- MILESTON 3 -----------------------------------------------------
+1. Choisir x pays, 10-15 newspapers par pays, et distributions de genres par pays 
+2. Refaire datasets pour chaque année, séparés pour chaque pays (2020-uk,2020-us,etc)
+3. Voir statistiques de chaque dataset
+4. Faire analyses indépendantes des catégories
+5. Finaliser algorithme de classification
+6. Créer dataset pour train l’algo (random quotes de chaque pays et années)
+7. Le train sur un dataset assez grand, décider les catégories finales et les ajouter comme colonne aux dataframes
+8. Prédire les catégories avec le model pour tous les autres datasets 
+9. Faire analyses par rapport aux catégories
+10. Faire le data story final
+11. Clean le notebook et tout mettre ensemble
+12. Update readme
+
+1. Country choices: 5 countries with a large population and from different continents
+https://en.wikipedia.org/wiki/List_of_countries_and_territories_where_English_is_an_official_language
+- United States, North america, english as primary language, population: 328,239,523
+- United Kingdom, Europe, english as primary language, population: 66,040,229
+- Australia, Oceania, english as primary language, population: 25,795,700
+- India, Asia, used as lingua franca, mostly and widely spoken, educational, commerce, and government, population: 1,247,540,000
+- Nigeria, Africa, english as primary language, used as lingua franca, population:182,202,000
+
+  Newspapers choices: 10-15 per countries with largest circulation
+- United States: https://en.wikipedia.org/wiki/List_of_newspapers_in_the_United_States
+     USA Today
+     The Wall Street Journal
+     The New York Times
+     New York Post
+     Los Angeles Times
+     The Washington Post
+     Star Tribune
+     Newsday
+     Chicago Tribune
+     The Boston Globe
+- United Kingdom: https://en.wikipedia.org/wiki/List_of_newspapers_in_the_United_Kingdom_by_circulation
+     Metro
+     The Sun
+     Daily Mail
+     Evening Standard
+     Daily Mirror
+     The Times
+     The Daily Telegraph
+     Daily Express
+     Daily Star
+     i
+     Financial Times
+     The Guardian
+     Daily Record
+     City A.M.
+- Australia: https://en.wikipedia.org/wiki/List_of_newspapers_in_Australia_by_circulation
+     The Australian Financial Review
+     The Australian
+     The Canberra Times
+     Daily Telegraph
+     The Sydney Morning Herald
+     Northern Territory News
+     The Courier-Mail
+     The Advertiser
+     The Mercury
+     The Age
+     Herald Sun
+     The West Australian
+- India: https://en.wikipedia.org/wiki/List_of_newspapers_in_India_by_circulation (only in english)
+     The Times of India
+     The Hindu
+     Hindustan Times
+     The Economic Times
+     The Telegraph
+- Nigeria: https://answersafrica.com/top-10-nigerian-newspapers-most-read-online.html
+     Vanguard
+     The Punch
+     The Nation online
+     Sahara Reporters
+     Sun News
+     THISDAY
+     Nigeria Tribune
+     The Guardian
+     National Mirror
+     Leadership
+     
+     
+     
