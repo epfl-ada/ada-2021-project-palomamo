@@ -55,8 +55,8 @@ We do most of the work simultaneously as a team but we will try to divide the ta
  11. Clean le notebook et tout mettre ensemble
  12. Update readme
 
-# 1. 
-# Country choices: 5 countries with a large population and from different continents
+## 1. 
+### Country choices: 5 countries with a large population and from different continents
 https://en.wikipedia.org/wiki/List_of_countries_and_territories_where_English_is_an_official_language
 - United States, North america, english as primary language, population: 328,239,523
 - United Kingdom, Europe, english as primary language, population: 66,040,229
@@ -64,7 +64,7 @@ https://en.wikipedia.org/wiki/List_of_countries_and_territories_where_English_is
 - India, Asia, used as lingua franca, mostly and widely spoken, educational, commerce, and government, population: 1,247,540,000
 - Nigeria, Africa, english as primary language, used as lingua franca, population:182,202,000
 
-# Newspapers choices: 10-15 per countries with largest circulation
+### Newspapers choices: 10-15 per countries with largest circulation
 - United States: https://en.wikipedia.org/wiki/List_of_newspapers_in_the_United_States
      USA Today
      The Wall Street Journal
