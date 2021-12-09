@@ -1,19 +1,4 @@
 import pandas as pd
-from IPython import get_ipython
-ipython = get_ipython()
-
-
-def goto_project_folder(use_colab):
-    # Import with EPFL google drive!
-    if use_colab:
-        from google.colab import drive
-        drive.mount('/content/drive', force_remount=True)
-        ipython.magic('%cd /content/drive/Shareddrives/ADA-project')
-        
-def downgrade_pandas(use_colab):
-    if use_colab:
-        ipython.magic('!pip install pandas==1.0.5')
-        print(pd.__version__)
 
 def load_mini_version_of_data(path_to_file, chunksize, nb_chunks):
     """
