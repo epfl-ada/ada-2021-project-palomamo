@@ -1,4 +1,4 @@
-def get_paths():
+
     # Comment the files which aren't stored locally
     # In Colab everything should be available
     RAW_QUOTES_2020_PATH = 'Quotebank/quotes-2020.json.bz2' 
