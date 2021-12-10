@@ -1,6 +1,6 @@
 import pandas as pd
 
-def load_mini_version_of_data(path_to_file, chunksize, nb_chunks):
+def load_mini_version_of_data(path_to_file, chunksize, nb_chunks,use_colab):
     """
     Returns a mini dataframe from of a bz2 compressed json file.
     :path_to_file   file path as string
@@ -37,7 +37,7 @@ def convert_to_1Dseries(series):
     """
     return pd.Series([x for _list in series for x in _list])
 
-def process_data_in_chunks(path_to_file, process_chunk, add_function, result):
+def process_data_in_chunks(path_to_file, process_chunk, add_function, result,use_colab):
     """
     """
     if use_colab:
