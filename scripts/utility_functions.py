@@ -37,16 +37,20 @@ def convert_to_1Dseries(series):
     """
     return pd.Series([x for _list in series for x in _list])
 
-def process_data_in_chunks(path_to_file, process_chunk, add_function, result,use_colab):
+def process_data_in_chunks(path_to_file, process_chunk, result, info, use_colab):
     """
+    Process data in chunks and return a result with desired statistics
+    :path_to_file   file path as string
+    :process_chunk  functions which which is applied 
+    :info           additional informations such as year, passed to process_chunk
+    :result         final output of chunk processing
+    :return         result
     """
     if use_colab:
         for chunk in pd.read_json(path_to_file, lines=True, compression='bz2', chunksize=100000):
-            tmp = process_chunk(chunk)
-            result = add_function(result, tmp)
+            result = process_chunk(chunk, result, info)
     else:
         with pd.read_json(path_to_file, lines=True, compression='bz2', chunksize=100000) as df_reader:
             for chunk in df_reader:
-                tmp = process_chunk(chunk)
-                result = add_function(result, tmp)
+                result = process_chunk(chunk, result, info)
     return result
