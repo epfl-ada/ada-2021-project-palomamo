@@ -2,5 +2,7 @@ Quotebank/
 Project\ datasets/
 Filtered\ data/
 Merged\ data/
+Results
 .ipynb_checkpoints/
+__pychache__/
 _site/
