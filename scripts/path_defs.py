@@ -86,7 +86,7 @@ MERGED_QUOTES_IN_2016_PATH = 'Merged data/quotes-2016-in.json.bz2'
 FILTERED_QUOTES_IN_2015_PATH = 'Filtered data/quotes-2015-in.json.bz2'
 MERGED_QUOTES_IN_2015_PATH = 'Merged data/quotes-2015-in.json.bz2'
 
-# US data
+# NG data
 FILTERED_QUOTES_NG_2020_PATH = 'Filtered data/quotes-2020-ng.json.bz2'
 MERGED_QUOTES_NG_2020_PATH = 'Merged data/quotes-2020-ng.json.bz2'
 
