@@ -111,9 +111,19 @@ MERGED_QUOTES_NG_2015_PATH = 'Merged data/quotes-2015-ng.json.bz2'
 SPEAKER_ATTRIBUTES_PATH = 'Project datasets/speaker_attributes.parquet'
 LABELS_WIKIDATA_PATH = 'Project datasets/wikidata_labels_descriptions_quotebank.csv.bz2'
 
-# Results
+# Results gender representation
 GENDER_REPRESENTATION_2015_TO_2020_UK_PATH = 'Results/gender-representation-2015-2020-uk.pkl'
 GENDER_REPRESENTATION_2015_TO_2020_US_PATH = 'Results/gender-representation-2015-2020-us.pkl'
 GENDER_REPRESENTATION_2015_TO_2020_AU_PATH = 'Results/gender-representation-2015-2020-au.pkl'
 GENDER_REPRESENTATION_2015_TO_2020_IN_PATH = 'Results/gender-representation-2015-2020-in.pkl'
 GENDER_REPRESENTATION_2015_TO_2020_NG_PATH = 'Results/gender-representation-2015-2020-ng.pkl'
+
+# Results topics
+QUOTES_TOPICS_2020 = 'Data with topics/QUOTES_TOPICS_2020.pkl'
+QUOTES_TOPICS_2019 = 'Data with topics/QUOTES_TOPICS_2019.pkl'
+QUOTES_TOPICS_2018 = 'Data with topics/QUOTES_TOPICS_2018.pkl'
+QUOTES_TOPICS_2017 = 'Data with topics/QUOTES_TOPICS_2017.pkl'
+QUOTES_TOPICS_2016 = 'Data with topics/QUOTES_TOPICS_2016.pkl'
+QUOTES_TOPICS_2015 = 'Data with topics/QUOTES_TOPICS_2015.pkl'
+
+
