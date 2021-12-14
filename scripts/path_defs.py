@@ -112,12 +112,12 @@ GENDER_REPRESENTATION_IN_2015_TO_2020_PATH = 'Results/gender-representation-2015
 GENDER_REPRESENTATION_NG_2015_TO_2020_PATH = 'Results/gender-representation-2015-2020-ng.pkl'
 
 # Results topics
-QUOTES_TOPICS_2020 = 'Data with topics/QUOTES_TOPICS_2020.pkl'
-QUOTES_TOPICS_2019 = 'Data with topics/QUOTES_TOPICS_2019.pkl'
-QUOTES_TOPICS_2018 = 'Data with topics/QUOTES_TOPICS_2018.pkl'
-QUOTES_TOPICS_2017 = 'Data with topics/QUOTES_TOPICS_2017.pkl'
-QUOTES_TOPICS_2016 = 'Data with topics/QUOTES_TOPICS_2016.pkl'
-QUOTES_TOPICS_2015 = 'Data with topics/QUOTES_TOPICS_2015.pkl'
+QUOTES_TOPICS_2020_PATH = 'Data with topics/QUOTES_TOPICS_2020.pkl'
+QUOTES_TOPICS_2019_PATH = 'Data with topics/QUOTES_TOPICS_2019.pkl'
+QUOTES_TOPICS_2018_PATH = 'Data with topics/QUOTES_TOPICS_2018.pkl'
+QUOTES_TOPICS_2017_PATH = 'Data with topics/QUOTES_TOPICS_2017.pkl'
+QUOTES_TOPICS_2016_PATH = 'Data with topics/QUOTES_TOPICS_2016.pkl'
+QUOTES_TOPICS_2015_PATH = 'Data with topics/QUOTES_TOPICS_2015.pkl'
 
 # Additional data set
 SPEAKER_ATTRIBUTES_PATH = 'Project datasets/speaker_attributes.parquet'
