@@ -1,7 +1,7 @@
 # Comment the files which aren't stored locally
 # In Colab everything should be available
 
-# raw data
+# Raw data
 RAW_QUOTES_2020_PATH = 'Quotebank/quotes-2020.json.bz2' 
 RAW_QUOTES_2019_PATH = 'Quotebank/quotes-2019.json.bz2'
 RAW_QUOTES_2018_PATH = 'Quotebank/quotes-2018.json.bz2' 
@@ -10,24 +10,23 @@ RAW_QUOTES_2016_PATH = 'Quotebank/quotes-2016.json.bz2'
 RAW_QUOTES_2015_PATH = 'Quotebank/quotes-2015.json.bz2' 
 
 # UK data
-FILTERED_QUOTES_2020_PATH = 'Filtered data/quotes-2020-gb.json.bz2'
-MERGED_QUOTES_2020_PATH = 'Merged data/quotes-2020-gb.json.bz2'
+FILTERED_QUOTES_UK_2020_PATH = 'Filtered data/quotes-2020-gb.json.bz2'
+MERGED_QUOTES_UK_2020_PATH = 'Merged data/quotes-2020-gb.json.bz2'
 
-FILTERED_QUOTES_2019_PATH = 'Filtered data/quotes-2019-gb.json.bz2'
-MERGED_QUOTES_2019_PATH = 'Merged data/quotes-2019-gb.json.bz2'
+FILTERED_QUOTES_UK_2019_PATH = 'Filtered data/quotes-2019-gb.json.bz2'
+MERGED_QUOTES_UK_2019_PATH = 'Merged data/quotes-2019-gb.json.bz2'
 
+FILTERED_QUOTES_UK_2018_PATH = 'Filtered data/quotes-2018-gb.json.bz2'
+MERGED_QUOTES_UK_2018_PATH = 'Merged data/quotes-2018-gb.json.bz2'
 
-FILTERED_QUOTES_2018_PATH = 'Filtered data/quotes-2018-gb.json.bz2'
-MERGED_QUOTES_2018_PATH = 'Merged data/quotes-2018-gb.json.bz2'
+FILTERED_QUOTES_UK_2017_PATH = 'Filtered data/quotes-2017-gb.json.bz2' 
+MERGED_QUOTES_UK_2017_PATH = 'Merged data/quotes-2017-gb.json.bz2'
 
-FILTERED_QUOTES_2017_PATH = 'Filtered data/quotes-2017-gb.json.bz2' 
-MERGED_QUOTES_2017_PATH = 'Merged data/quotes-2017-gb.json.bz2'
+FILTERED_QUOTES_UK_2016_PATH = 'Filtered data/quotes-2016-gb.json.bz2'
+MERGED_QUOTES_UK_2016_PATH = 'Merged data/quotes-2016-gb.json.bz2'
 
-FILTERED_QUOTES_2016_PATH = 'Filtered data/quotes-2016-gb.json.bz2'
-MERGED_QUOTES_2016_PATH = 'Merged data/quotes-2016-gb.json.bz2'
-
-FILTERED_QUOTES_2015_PATH = 'Filtered data/quotes-2015-gb.json.bz2'
-MERGED_QUOTES_2015_PATH = 'Merged data/quotes-2015-gb.json.bz2'
+FILTERED_QUOTES_UK_2015_PATH = 'Filtered data/quotes-2015-gb.json.bz2'
+MERGED_QUOTES_UK_2015_PATH = 'Merged data/quotes-2015-gb.json.bz2'
 
 # US data
 FILTERED_QUOTES_US_2020_PATH = 'Filtered data/quotes-2020-us.json.bz2'
@@ -105,18 +104,12 @@ MERGED_QUOTES_NG_2016_PATH = 'Merged data/quotes-2016-ng.json.bz2'
 FILTERED_QUOTES_NG_2015_PATH = 'Filtered data/quotes-2015-ng.json.bz2'
 MERGED_QUOTES_NG_2015_PATH = 'Merged data/quotes-2015-ng.json.bz2'
 
-
-
-# Additional data set
-SPEAKER_ATTRIBUTES_PATH = 'Project datasets/speaker_attributes.parquet'
-LABELS_WIKIDATA_PATH = 'Project datasets/wikidata_labels_descriptions_quotebank.csv.bz2'
-
 # Results gender representation
-GENDER_REPRESENTATION_2015_TO_2020_UK_PATH = 'Results/gender-representation-2015-2020-uk.pkl'
-GENDER_REPRESENTATION_2015_TO_2020_US_PATH = 'Results/gender-representation-2015-2020-us.pkl'
-GENDER_REPRESENTATION_2015_TO_2020_AU_PATH = 'Results/gender-representation-2015-2020-au.pkl'
-GENDER_REPRESENTATION_2015_TO_2020_IN_PATH = 'Results/gender-representation-2015-2020-in.pkl'
-GENDER_REPRESENTATION_2015_TO_2020_NG_PATH = 'Results/gender-representation-2015-2020-ng.pkl'
+GENDER_REPRESENTATION_UK_2015_TO_2020_PATH = 'Results/gender-representation-2015-2020-uk.pkl'
+GENDER_REPRESENTATION_US_2015_TO_2020_PATH = 'Results/gender-representation-2015-2020-us.pkl'
+GENDER_REPRESENTATION_AU_2015_TO_2020_PATH = 'Results/gender-representation-2015-2020-au.pkl'
+GENDER_REPRESENTATION_IN_2015_TO_2020_PATH = 'Results/gender-representation-2015-2020-in.pkl'
+GENDER_REPRESENTATION_NG_2015_TO_2020_PATH = 'Results/gender-representation-2015-2020-ng.pkl'
 
 # Results topics
 QUOTES_TOPICS_2020 = 'Data with topics/QUOTES_TOPICS_2020.pkl'
@@ -126,4 +119,6 @@ QUOTES_TOPICS_2017 = 'Data with topics/QUOTES_TOPICS_2017.pkl'
 QUOTES_TOPICS_2016 = 'Data with topics/QUOTES_TOPICS_2016.pkl'
 QUOTES_TOPICS_2015 = 'Data with topics/QUOTES_TOPICS_2015.pkl'
 
-
+# Additional data set
+SPEAKER_ATTRIBUTES_PATH = 'Project datasets/speaker_attributes.parquet'
+LABELS_WIKIDATA_PATH = 'Project datasets/wikidata_labels_descriptions_quotebank.csv.bz2'
