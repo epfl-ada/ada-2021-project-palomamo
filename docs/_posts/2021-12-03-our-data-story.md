@@ -45,6 +45,10 @@ For females :
 And for the gender minorities : 
 {% include fig_topics_others_2020.html %}
 
+We see that the most popular topics are highly similar between the genders, but the order is different : the highest scored topic for men is business, while for women it is positive emotion and for the gender minorities it is optimism. 
+This result is in line with the fact that in our society, there is a pressure on women to perform a certain likability and to come accross as nice and non-aggressive, while men do not undergo the same thing and can be more direct in their speech.
+
+
 
 - Study of subject that gender minorities talk about (Q3)
 - Study of subject that women talk about (Q3)
