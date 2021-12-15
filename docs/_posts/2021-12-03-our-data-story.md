@@ -15,7 +15,10 @@ Gender representation in most work-related domains has for a long time been larg
 
 ## Distribution of genders on most read UK newspapers
 - Percentages of each gender in UK (internet source)
+
 - Most unfair/fair newspaper years distribution difference (Q1)
+{% include fig_counts_uk_2019.html %}
+
 - General plot of all newspapers (Q1)
 - General plot of subject changes through the years (Q3)
 - Most talked about subjects in general (Q4)
