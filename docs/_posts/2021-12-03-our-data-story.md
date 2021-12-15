@@ -33,6 +33,19 @@ Comparison with other countries
 - General plot of all newspapers (Q1)
 
 ## Topics analysis
+
+We will now analyze further the gender distribution in the press by studying the distribution of genders based on the topics describing each quotation.
+We will focus solely on the UK newspapers for this analysis.
+In order to extract these topics, we used  [Empath](https://hci.stanford.edu/publications/2016/ethan/empath-chi-2016.pdf), a tool created by researchers at Stanford University. This tool uses a combination of deep learning and crowdsourcing to analyze text over 200 pre-existing categories, and lets us easily add new categories. 
+
+To see which subjects are most popular, we keep only the 10 most popular topics for each gender and year. We get the following distribution for males in 2020 : 
+{% include fig_topics_males_2020.html %}
+For females : 
+{% include fig_topics_females_2020.html %}
+And for the gender minorities : 
+{% include fig_topics_others_2020.html %}
+
+
 - Study of subject that gender minorities talk about (Q3)
 - Study of subject that women talk about (Q3)
 - Study of subject that men talk about (Q3)
