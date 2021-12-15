@@ -17,9 +17,9 @@ Add catchy fact we found here
 + support, article on data set
 
 
-##Gender representation in the news world
+## Gender representation in the news world
 
-###Distribution of genders in the most read newspapers in the United Kingdom
+### Distribution of genders in the most read newspapers in the United Kingdom
 
 In the United Kingdom, the population consists of about 49% of women and 51% of men. But this equality is not as well represented in most newspapers. With a selection of 14 newspapers, each dealing with different themes, a significant disparity in the genres of authors can be seen without exceptions. Women are underrepresented.
 
@@ -34,7 +34,7 @@ In the United Kingdom, the population consists of about 49% of women and 51% of 
 In the end, men still represent the majority in any news type from the finance to the tabloids.
 
 
-###Detailed view on gender minorities
+### Detailed view on gender minorities
 
 But Women are not the only gender underrepresented. The Quotebank also represent gender minorities as non-binary, transgender or genderfluid individual. Statistics for the representation of those gender minorities are extremely hard to get. They either don’t exist yet or are misled due to a part of the society being still sceptical about the possibility of identified differently than male or female. A survey conducted in 2011 by the Equality and Human Rights Commision estimates that they consist of 2% of the population in the United Kingdom.
 
@@ -42,7 +42,7 @@ But Women are not the only gender underrepresented. The Quotebank also represent
 
 {% include fig_perc_other_uk.html %} ((As for the representation of women throughout the 5 years span, the representation stays constant))
 
-###Comparison with other countries
+### Comparison with other countries
 * Percentages of each gender in UK + other countries (internet source)
 * General plot of all newspapers (Q1)
 * 
