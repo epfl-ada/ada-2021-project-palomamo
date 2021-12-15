@@ -22,12 +22,12 @@ Distribution of genders on most read UK newspapers
 
 - Most unfair/fair newspaper years distribution difference (Q1)
 {% include fig_counts_uk_2019.html %}
-{% fig_counts_other_uk_2019.html %}
-- General plot of all newspapers (Q1) {%fig_perc_female_uk.html %}
+{% include fig_counts_other_uk_2019.html %}
+- General plot of all newspapers (Q1) {% include fig_perc_female_uk.html %}
 
 
 Detailed view on gender minorities
-{% fig_perc_other_uk.html %}
+{% include fig_perc_other_uk.html %}
 - Intro on gender minorities representation in UK (internet source)
 - All newspapers percentage of gender minorities authors (Q2)
 
