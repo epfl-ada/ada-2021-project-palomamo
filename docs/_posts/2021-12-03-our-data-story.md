@@ -42,16 +42,14 @@ We will now analyze further the gender distribution in the press by studying the
 We will focus solely on the UK newspapers for this analysis.
 In order to extract these topics, we used  [Empath](https://hci.stanford.edu/publications/2016/ethan/empath-chi-2016.pdf), a tool created by researchers at Stanford University. This tool uses a combination of deep learning and crowdsourcing to analyze text over 200 pre-existing categories, and lets us easily add new categories. 
 
-To see which subjects are most popular, we keep only the 10 most popular topics for each gender and year. We get the following distributions : 
-{% include fig_topics_males_2020.html %}
-{% include fig_topics_females_2020.html %}
-{% include fig_topics_others_2020.html %}
+To see which subjects are most popular, only the 10 most popular topics for each gender are kept.
+{% include distribution_allyears.html %}
 
-We see that the most popular topics are highly similar between the genders, but the order is different : the highest scored topic for men is business, while for women it is positive emotion and for the gender minorities it is optimism. 
+It is clear that the most popular topics are highly similar between the genders, but the relative importance is different : the highest scored topic for men is business, while for women it is positive emotion and for the gender minorities it is optimism. 
 This result is in line with the fact (TODO other word) that in our society, there is a pressure on women to perform a certain likability and to come accross as nice and non-aggressive, while men do not undergo the same social phenomenon and tend be more direct in their speech.
 
-We have a better undestanding of the trending topics with this cloud visualization : 
-![Word cloud](/docs/_includes/world_Cloud-2.png)
+A better undestanding of the trending topics can be achieved with this cloud visualization : 
+![Word cloud](/docs/_includes/word_cloud.png)
 
 
 - Study of subject that gender minorities talk about (Q3)
