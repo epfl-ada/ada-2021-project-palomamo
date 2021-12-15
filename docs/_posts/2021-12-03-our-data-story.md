@@ -16,25 +16,37 @@ Add catchy fact we found here
 (to modify) Gender representation in most work-related domains has for a long time been largely dominated by men. But in the last decades, women and gender minorities' rights and voices have gained awareness and freedom. We want to analyze how this evolution translates in the newspapers, more precisely in the UK. In this project, we aim to study how differently women are represented in English newspapers compared to men, its evolution over the last five years, as well as the representation of gender minorities. The first aspect to consider is the proportion of quotes depending on the gender. Then, we will determine the distribution of genders per subject, which we can find by performing some unsupervised pattern matching to classify the subjects of articles. We will consider other attributes as well, like the occupation. Via this analysis we hope to extract some interesting information and raise awareness over women and gender minorities' representation.
 + support, article on data set
 
-## Gender representation
-Distribution of genders on most read UK newspapers 
-- Percentages of each gender in UK (internet source)
 
-- Most unfair/fair newspaper years distribution difference (Q1)
-{% include fig_counts_uk_2019.html %}
-{% include fig_counts_other_uk_2019.html %}
-- General plot of all newspapers (Q1) 
-{% include fig_perc_female_uk.html %}
+##Gender representation in the news world
+
+###Distribution of genders in the most read newspapers in the United Kingdom
+
+In the United Kingdom, the population consists of about 49% of women and 51% of men. But this equality is not as well represented in most newspapers. With a selection of 14 newspapers, each dealing with different themes, a significant disparity in the genres of authors can be seen without exceptions. Women are underrepresented.
+
+{% include fig_counts_uk_2019.html %} ((From a newspaper like the Daily Telegraph with the most data collected to the Times, the inequality holds.))
+
+{fig no occurence} ((When taking into the impact of a quote, i.e the numbers of citation of this quotes in numerous newspapers, the gap even seems to grow. (to check with plot))
+
+{% include fig_perc_female_uk.html %} ((This disparity remains more or less constant throughout the 5 years span with an average between … and …., ))
+
+(After computing the mean for each journal) Women are best represented  in The Sun or Metro which are both considered as tabloid. 
+
+In the end, men still represent the majority in any news type from the finance to the tabloids.
 
 
-Detailed view on gender minorities
-{% include fig_perc_other_uk.html %}
-- Intro on gender minorities representation in UK (internet source)
-- All newspapers percentage of gender minorities authors (Q2)
+###Detailed view on gender minorities
 
-Comparison with other countries
-- Percentages of each gender in UK + other countries (internet source)
-- General plot of all newspapers (Q1)
+But Women are not the only gender underrepresented. The Quotebank also represent gender minorities as non-binary, transgender or genderfluid individual. Statistics for the representation of those gender minorities are extremely hard to get. They either don’t exist yet or are misled due to a part of the society being still sceptical about the possibility of identified differently than male or female. A survey conducted in 2011 by the Equality and Human Rights Commision estimates that they consist of 2% of the population in the United Kingdom.
+
+{% include fig_counts_other_uk_2019.html %} ((Knowing that these minorities consist of les approximatively 2% of the population, it is more difficult to asses if they are really underrepresented in the press.))
+
+{% include fig_perc_other_uk.html %} ((As for the representation of women throughout the 5 years span, the representation stays constant))
+
+###Comparison with other countries
+* Percentages of each gender in UK + other countries (internet source)
+* General plot of all newspapers (Q1)
+* 
+
 
 ## Topics analysis
 
