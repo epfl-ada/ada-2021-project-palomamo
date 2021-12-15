@@ -57,22 +57,29 @@ In order to extract these topics, we used  [Empath](https://hci.stanford.edu/pub
 To see which subjects are most popular, only the 10 most popular topics for each gender are kept.
 {% include distribution_allyears.html %}
 
-It is clear that the most popular topics are highly similar between the genders, but the relative importance is different : the highest scored topic for men is business, while for women it is positive emotion and for the gender minorities it is optimism. 
-This result is in line with the fact (TODO other word) that in our society, there is a pressure on women to perform a certain likability and to come accross as nice and non-aggressive, while men do not undergo the same social phenomenon and tend be more direct in their speech.
-
 A better undestanding of the trending topics can be achieved with this cloud visualization : 
 ![Word cloud](/docs/_includes/word_cloud.png)
 
+It is clear that the most popular topics are highly similar between the genders, but the relative importance is different : the highest scored topic for men is business, while for women it is positive emotion and for the gender minorities it is optimism. 
+This result is in line with the fact (TODO other word) that in our society, there is a pressure on women to perform a certain likability and to come accross as nice and non-aggressive, while men do not undergo the same social phenomenon and tend be more direct in their speech.
 
-- Study of subject that gender minorities talk about (Q3)
-- Study of subject that women talk about (Q3)
-- Study of subject that men talk about (Q3)
+Trending topics are obviously not the same throughout the years, as external events happen the topics covered in the press constantly evolve. Here is a graph depicting the evolution of the most trending topics by gender : 
+{% include evolution_male.html %}
+{% include evolution_female.html %}
+{% include evolution_diverse.html %}
 
-- Proportion of gender in most popular topics (emphasis)
+For men, there was no significant evolution, all trending topics stay at a similar level of relevance throughout the years.
+For women, it appears that ‘business’ and ‘negative emotion’ are the topics that had the most positive evolution.  In general we see an evolution in all topics, which could be explained by the fact that more women write and are cited in the press now compared to a few years ago.
+For gender-diverse, we get some odd shapes which can be explained by our lack of data as there are very few (#number) gender-diverse authors of quotes.
 
-- General plot of subject changes through the years for each gender (Q3)
 
-- Most talked about subjects in general (Q4)
+A topic that has had a lot of press in the previous years is the #metoo movement.  This movement is “a social movement against sexual abuse and sexual harassment where people publicize allegations of sex crimes” (Wikipedia). 
+This movement first started in 2005 at a small scale, then following the widespread sexual-abuse allegations against Harvey Weinstein in 2017, the hashtag exploded on social media.  
+A further analysis on the data shows the following evolution of the #metoo topic throughout the years :
+
+PLOT 
+
+
 - Most cited quote 2020 minorities/women/men (if interesting)
 - Other easy to show interesting feature we found
 - me too, short analysis
