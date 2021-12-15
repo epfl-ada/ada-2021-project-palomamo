@@ -51,7 +51,7 @@ We see that the most popular topics are highly similar between the genders, but 
 This result is in line with the fact (TODO other word) that in our society, there is a pressure on women to perform a certain likability and to come accross as nice and non-aggressive, while men do not undergo the same social phenomenon and tend be more direct in their speech.
 
 We have a better undestanding of the trending topics with this cloud visualization : 
-![Word cloud](/docs/_includes/world_Cloud.png)
+![Word cloud](/docs/_includes/world_Cloud-2.png)
 
 
 - Study of subject that gender minorities talk about (Q3)
