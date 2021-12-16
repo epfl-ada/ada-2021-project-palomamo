@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Breaking News : Gender Inequality in the Press"
-date:   2021-12-17 16:46:57 +0100
+date:   2021-12-16 16:46:57 +0100
 categories: jekyll update
-—--
+---
 
 "A study on how different genders are represented in newspapers, in terms of proportions, quote themes and comparison between English-speaking countries throughout the years 2015-2020."
 
@@ -44,13 +44,13 @@ Can these first conclusions be extended to some other countries with a completel
 
 The United States, India and Nigeria are all English-speaking countries located on different continents.
 
-{% include fig countries1 %}
-{% include fig countries2 %}
+{% include fig_counts_other_uk_2019.html %} 
+{% include fig_perc_other_uk.html %}
 _As before, a time independence is observed and no conclusion can be issued between the gender representation and the types of newspaper. However an interesting new observation can be made. The averages over the 5-year span, let it be for the woman or the gender minorities representation, differ among countries. This can be justified by their history  and their consideration for women and gender diverse individuals._
 
 Nigeria still does not recognize [LGBT rights](https://en.wikipedia.org/wiki/LGBT_rights_in_Nigeria) and women face numerous [inequalities and difficulties](https://en.wikipedia.org/wiki/Women_in_Nigeria) compared to men. This is well represented here with the lowest proportion, …,  of female and gender diverse individuals. The disparity becomes even greater than in a European country like the United Kingdom or the United States with both a highest average of … A similar analysis can be made for India where the situation for [women](https://en.wikipedia.org/wiki/Women_in_India) can also be complicated. 
 
-{% include plot regression}
+{% include fig_counts_other_uk_2019.html %} 
 
 
 
@@ -62,13 +62,13 @@ In order to further analyze the gender distribution in the press, it is interest
 To perform topic analysis, we used  [Empath](https://hci.stanford.edu/publications/2016/ethan/empath-chi-2016.pdf), a tool created by researchers at Stanford University in 2016. It uses a combination of deep learning and crowdsourcing to analyze text over 200 pre-existing categories and output the most probable topics the text is about.
 
 
-*What is the distribution of genders in topics? *
+**What is the distribution of genders in topics?**
 
 TODO : Include pie charts
 
 In the following analysis we will keep in mind that the male gender is overly represented, hence the topic analysis will be more precise. In the contrary, gender-diverse numbers are almost none, which will have as consequence that our analysis for this gender cannot be extended to other cases. 
 
-*What does each gender talk about?*
+**What does each gender talk about?**
 TODO : Most cited quote 2019 minorities/women/men
 
 10 most popular topics per gender : 
@@ -79,7 +79,7 @@ Most popular topics are highly similar between genders, but the relative importa
 This result is in line with the tendency of our society to put pressure on women to be **likeable** and come across as nice and non-aggressive, while men do not undergo the same social phenomenon and tend to be more **direct** in their speech.
 Concerning gender-diverse individuals, we can notice the predominance of an **emotional** lexical, tending to show that they talk more about personal experiences than facts on general news.
 
-*What’s the evolution of topics per gender throughout the past 5 years ?*
+**What’s the evolution of topics per gender throughout the past 5 years ?**
 
 {% include evolution_male.html %}
 TODO : Male analysis
