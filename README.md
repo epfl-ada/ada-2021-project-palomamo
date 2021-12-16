@@ -31,7 +31,7 @@ The file structure is shown below.
     ├── docs
     ├── README.md
 
-Some specifications:
+Some specifications: (ajouter ordre des notebookds)
 
 - Preprocessing of the quotebank data set is done in _data_preprocessing.ipynb_.
 - Research questions are tackled in _gender_representation.ipynb_ and _gender_topics.ipynb_.
