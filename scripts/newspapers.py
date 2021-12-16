@@ -1,6 +1,5 @@
 # List of selected newspapers and their urls
 
-# UK
 newspapers_uk_list = [['The Sun', 'thesun.co.uk'], 
                   ['The Guardian', 'theguardian.com'],
                   ['The Times', 'thetimes.co.uk'],
@@ -21,12 +20,6 @@ newspapers_us_list = [['USA Today', 'usatoday.com'],
                   ['The New York Times', 'nytimes.com'],
                   ['New York Post', 'nypost.com'],
                   ['Los Angeles Times', 'latimes.com']]
-
-newspapers_au_list = [['Herald Sun', 'heraldsun.com.au'],
-                  ['Daily Telegraph', 'dailytelegraph.com.au'],
-                  ['The Australian Financial Review', 'afr.com'],
-                  ['The Courier-Mail', 'couriermail.com.au'],
-                  ['The West Australian', 'thewest.com.au']]
         
 newspapers_in_list = [['The Times of India', 'timesofindia.indiatimes.com'],
                   ['The Hindu', 'thehindu.com'],
