@@ -1,42 +1,51 @@
 ---
 layout: post
-title:  "Our data story"
-date:   2021-12-03 16:46:57 +0100
+title:  "Breaking News : Gender Inequality in the Press"
+date:   2021-12-17 16:46:57 +0100
 categories: jekyll update
 ---
 
-# Gender representation in the press
 "A study on how different genders are represented in newspapers, in terms of proportions, quote themes and comparison between English-speaking countries throughout the years 2015-2020."
 
-Gender representation in most work-related domains has for a long time been largely dominated by men. But in the last decades, women and gender minorities' rights and voices have gained awareness and freedom. How does this evolution translates in the newspapers? How differently women and gender minorities are represented in English newspapers compared to men?
+Gender representation in most work-related domains has for a long time been largely dominated by men. But in the last decades, women and gender minorities' rights and voices have gained awareness and freedom. How does this evolution translate in the newspapers? How differently women and gender minorities are represented in English newspapers compared to men?
 
-This exploration has been conducted using the Quotebank dataset (add link), a corpus of speaker-attributed quotations extratced from millions of English news articles.
+This exploration has been conducted using the Quotebank dataset (add link), a corpus of speaker-attributed quotations extracted from millions of English news articles from the web between AUgust 2008 and April 2020. In order to get more information on authors of the quotations, a Wikidata set of speaker attributes (addlink) was used.
 
-
-## Gender distribution
+## Gender Representation
 
 ### Distribution of genders in the most read newspapers in the United Kingdom
 
 In the United Kingdom, the population consists of about 49% of women and 51% of men. But this equality is not as well represented in most newspapers. With a selection of 14 newspapers, each dealing with different themes, a significant disparity in the genres of authors can be seen without exceptions. Women are underrepresented.
 
-{% include fig_counts_uk_2019.html %} ((From a newspaper like the Daily Telegraph with the most data collected to the Times, the inequality holds.))
+{% include fig_counts_uk_2019.html %} 
+_The equality of men and women in the population is not represented. The difference holds for any newspaper from the tabloids to more serious daily journals._
 
-{fig no occurence} ((When taking into the impact of a quote, i.e the numbers of citation of this quotes in numerous newspapers, the gap even seems to grow. (to check with plot))
 
-{% include fig_perc_female_uk.html %} ((This disparity remains more or less constant throughout the 5 years span with an average between … and …., ))
+{% include fig_perc_female_uk.html %} 
 
-(After computing the mean for each journal) Women are best represented  in The Sun or Metro which are both considered as tabloid. 
+{% include fig_perc_female_uk.html %}
+_This disparity remains more or less constant throughout the 5-year span with an average between … and ….. Females are best represented in **Daily Mail** and **Daily Star** which are both tabloid newspapers._
 
-In the end, men still represent the majority in any news type from the finance to the tabloids.
+ Overall it is difficult to establish a link between certain types of newspapers and how they represent women. There seems to be a general state of mind of the publisher in each journal which is not necessarily related to their content.
+
 
 
 ### Detailed view on gender minorities
 
-But Women are not the only gender underrepresented. The Quotebank also represent gender minorities as non-binary, transgender or genderfluid individual. Statistics for the representation of those gender minorities are extremely hard to get. They either don’t exist yet or are misled due to a part of the society being still sceptical about the possibility of identified differently than male or female. A survey conducted in 2011 by the Equality and Human Rights Commision estimates that they consist of 2% of the population in the United Kingdom.
+But Women are not the only gender underrepresented. The Quotebank also represent gender minorities as non-binary, transgender or genderfluid individuals. Statistics for the representation of those gender minorities are extremely hard to get. They either don’t exist yet or are misled due to a part of the society being still sceptical about the possibility of identify differently than male or female. A survey conducted in 2011 by the Equality and Human Rights Commission estimates that they consist between “0.1-2% [of the general population] depending on the inclusion criteria and geographic location."
+https://doi.org/10.1016/j.ecl.2019.01.001
 
-{% include fig_counts_other_uk_2019.html %} ((Knowing that these minorities consist of les approximatively 2% of the population, it is more difficult to asses if they are really underrepresented in the press.))
+{% include fig_counts_other_uk_2019.html %} ((Knowing that these minorities consist of approximatively 2% of the population, it is more difficult to assess if they are really underrepresented in the press.))
 
 {% include fig_perc_other_uk.html %} ((As for the representation of women throughout the 5 years span, the representation stays constant))
+
+
+
+We don't know if gender minorities are underrepresented. the percentage fluctuates from 0.05 -0.8 % which corresponds their distrubution in the population (See section ... in the data_preprocessing notebook.).
+
+
+In the end, men still represent the majority in any news type from the finance to the tabloids.
+
 
 ### Comparison with other countries
 * Percentages of each gender in UK + other countries (internet source)
@@ -45,41 +54,53 @@ But Women are not the only gender underrepresented. The Quotebank also represent
 
 
 ## Topics analysis
+In order to further analyze the gender distribution in the press, it is interesting to study the distribution of genders based on the topics they talk about the most. The focus is solely on the UK newspapers for this more in depth analysis.
+To perform topic analysis, we used  [Empath](https://hci.stanford.edu/publications/2016/ethan/empath-chi-2016.pdf), a tool created by researchers at Stanford University in 2016. It uses a combination of deep learning and crowdsourcing to analyze text over 200 pre-existing categories and output the most probable topics the text is about.
 
-We will now analyze further the gender distribution in the press by studying the distribution of genders based on the topics describing each quotation.
-We will focus solely on the UK newspapers for this analysis.
-In order to extract these topics, we used  [Empath](https://hci.stanford.edu/publications/2016/ethan/empath-chi-2016.pdf), a tool created by researchers at Stanford University. This tool uses a combination of deep learning and crowdsourcing to analyze text over 200 pre-existing categories, and lets us easily add new categories. 
 
-To see which subjects are most popular, only the 10 most popular topics for each gender are kept.
-{% include distribution_allyears.html %}
+*What is the distribution of genders in topics? *
 
-A better undestanding of the trending topics can be achieved with this cloud visualization : 
-![Word cloud](/docs/_includes/word_cloud.png)
+TODO : Include pie charts
 
-It is clear that the most popular topics are highly similar between the genders, but the relative importance is different : the highest scored topic for men is business, while for women it is positive emotion and for the gender minorities it is optimism. 
-This result is in line with the fact (TODO other word) that in our society, there is a pressure on women to perform a certain likability and to come accross as nice and non-aggressive, while men do not undergo the same social phenomenon and tend be more direct in their speech.
+In the following analysis we will keep in mind that the male gender is overly represented, hence the topic analysis will be more precise. In the contrary, gender-diverse numbers are almost none, which will have as consequence that our analysis for this gender cannot be extended to other cases. 
 
-Trending topics are obviously not the same throughout the years, as external events happen the topics covered in the press constantly evolve. Here is a graph depicting the evolution of the most trending topics by gender : 
+*What does each gender talk about?*
+TODO : Most cited quote 2019 minorities/women/men
+
+10 most popular topics per gender : 
+
+<img src=”/docs/_includes/word_cloud.png”>
+
+Most popular topics are highly similar between genders, but the relative importance is different : the highest topic score for men is **business**, while for women it is **positive emotion** and for gender-diverse individuals it is **optimism**. 
+This result is in line with the tendency of our society to put pressure on women to be **likeable** and come across as nice and non-aggressive, while men do not undergo the same social phenomenon and tend to be more **direct** in their speech.
+Concerning gender-diverse individuals, we can notice the predominance of an **emotional** lexical, tending to show that they talk more about personal experiences than facts on general news.
+
+*What’s the evolution of topics per gender throughout the past 5 years ?*
+
 {% include evolution_male.html %}
-{% include evolution_female.html %}
-{% include evolution_diverse.html %}
-
+TODO : Male analysis
 For men, there was no significant evolution, all trending topics stay at a similar level of relevance throughout the years.
+
+{% include evolution_female.html %}
+TODO : Female analysis
 For women, it appears that ‘business’ and ‘negative emotion’ are the topics that had the most positive evolution.  In general we see an evolution in all topics, which could be explained by the fact that more women write and are cited in the press now compared to a few years ago.
+
+{% include evolution_diverse.html %}
+TODO : Gender-diverse analysis
 For gender-diverse, we get some odd shapes which can be explained by our lack of data as there are very few (#number) gender-diverse authors of quotes.
 
-
-A topic that has had a lot of press in the previous years is the #metoo movement.  This movement is “a social movement against sexual abuse and sexual harassment where people publicize allegations of sex crimes” (Wikipedia). 
-This movement first started in 2005 at a small scale, then following the widespread sexual-abuse allegations against Harvey Weinstein in 2017, the hashtag exploded on social media.  
-A further analysis on the data shows the following evolution of the #metoo topic throughout the years :
-
-PLOT 
-
-
-- Most cited quote 2020 minorities/women/men (if interesting)
-- Other easy to show interesting feature we found
-- me too, short analysis
 
 ## Conclusion
 - summary of obvious facts and if our analysis was meaningful
 - our conclusion on women in minorities in the press
+
+
+
+## Lexicon
+
+[**Non-binary** or **genderqueer** people](https://en.wikipedia.org/wiki/Non-binary_gender)  may identify themselves as an intermediate or third gender that is neither male nor female. 
+[**Transgender male**](https://en.wikipedia.org/wiki/Trans_man) is a man who was assigned female at birth.
+[**Transgender female**](https://en.wikipedia.org/wiki/Trans_woman) is a woman who was assigned male at birth. 
+[**Genderfluid** people](https://en.wikipedia.org/wiki/Non-binary_gender) often express a desire to remain flexible about their gender identity rather than committing to a single definition.
+[**Intersex** people](https://en.wikipedia.org/wiki/Intersex) are individuals born with any of several sex characteristics that, according to the Office of the United Nations High Commissioner for Human Rights, “do not fit typical binary notions of male or female bodies”.
+[**Cisgender** people](https://en.wikipedia.org/wiki/Cisgender) have the same gender identity as their sex assigned at birth. 
