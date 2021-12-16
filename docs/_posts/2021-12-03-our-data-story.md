@@ -13,7 +13,7 @@ Gender representation in most work-related domains has for a long time been larg
 This exploration has been conducted using the Quotebank dataset (add link), a corpus of speaker-attributed quotations extratced from millions of English news articles.
 
 
-## Gender representation in the news world
+## Gender distribution
 
 ### Distribution of genders in the most read newspapers in the United Kingdom
 
