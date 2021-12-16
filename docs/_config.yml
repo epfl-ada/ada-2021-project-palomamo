@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Gender representation in UK's leading newspapers 
+title: Breaking News: Gender Inequality in the Press 
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Our project description.
+  A study on how different genders are represented in newspapers, in terms of proportions, quote themes and comparison between English-speaking countries throughout the years 2015-2020.
 baseurl: "/ada_project/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -29,7 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 remote_theme: broccolini/swiss
-theme_color: blue
+theme_color: white
 plugins:
   - jekyll-feed
 
