@@ -3,7 +3,7 @@ layout: post
 title:  "Breaking News : Gender Inequality in the Press"
 date:   2021-12-17 16:46:57 +0100
 categories: jekyll update
-—
+—--
 
 "A study on how different genders are represented in newspapers, in terms of proportions, quote themes and comparison between English-speaking countries throughout the years 2015-2020."
 
