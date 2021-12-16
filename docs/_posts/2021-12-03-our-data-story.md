@@ -6,16 +6,11 @@ categories: jekyll update
 ---
 
 # Gender representation in the press
-"A study on how different genders are represented in UK newspapers, in terms of proportions, quote themes and comparison to other countries throughout the years 2015-2020."
+"A study on how different genders are represented in newspapers, in terms of proportions, quote themes and comparison between English-speaking countries throughout the years 2015-2020."
 
-## Abstract
+Gender representation in most work-related domains has for a long time been largely dominated by men. But in the last decades, women and gender minorities' rights and voices have gained awareness and freedom. How does this evolution translates in the newspapers? How differently women and gender minorities are represented in English newspapers compared to men?
 
-Add catchy fact we found here
-
-## Introduction
-
-(to modify) Gender representation in most work-related domains has for a long time been largely dominated by men. But in the last decades, women and gender minorities' rights and voices have gained awareness and freedom. We want to analyze how this evolution translates in the newspapers, more precisely in the UK. In this project, we aim to study how differently women are represented in English newspapers compared to men, its evolution over the last five years, as well as the representation of gender minorities. The first aspect to consider is the proportion of quotes depending on the gender. Then, we will determine the distribution of genders per subject, which we can find by performing some unsupervised pattern matching to classify the subjects of articles. We will consider other attributes as well, like the occupation. Via this analysis we hope to extract some interesting information and raise awareness over women and gender minorities' representation.
-+ support, article on data set
+This exploration has been conducted using the Quotebank dataset (add link), a corpus of speaker-attributed quotations extratced from millions of English news articles.
 
 
 ## Gender representation in the news world
