@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Gender representation in the press"
-subtitle: "A study on how different genders are represented in UK newspapers, in terms of proportions, quote themes and comparison to other countries throughout the years 2015-2020."
+title:  "Our data story"
 date:   2021-12-03 16:46:57 +0100
 categories: jekyll update
 ---
 
-# 
+# Gender representation in the press
+"A study on how different genders are represented in UK newspapers, in terms of proportions, quote themes and comparison to other countries throughout the years 2015-2020."
 
 ## Abstract
 
