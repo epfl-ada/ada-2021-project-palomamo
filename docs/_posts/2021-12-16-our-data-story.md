@@ -79,14 +79,18 @@ In the following analysis we will keep in mind that the male gender is overly re
 
 Here are the most cited quote of early 2020 per gender : 
 
-<span style="color:rgb(102,197,204)"> **Male : "make it impossible for me to do my job." William Barr, male, 07/02/2020** </span>.
+<span style="color:rgb(102,197,204)"> ** “[Trump's tweets] make it impossible for me to do my job." William Barr (US politician), male, 07/02/2020** </span>.
 
-#### Female : "work to become financially independent." Duchess of Sussex, female, 08/01/2020
-#### Gender-diverse : "They are standing for us, and I am immensely proud of them," Rose McGowan, non-binary, 05/01/2020
+<span style="color:rgb(246,207,113)">  ** "work to become financially independent." Duchess of Sussex, female, 08/01/2020** </span>. 
+
+<span style="color:rgb(248,156,116)">  **"They are standing for us, and I am immensely proud of them," Rose McGowan (actress and activist), non-binary, 05/01/2020** </span>.   
+
+
 
 The 10 most popular topics per gender : 
 
-<img src="../imgs/word_cloud.png" alt="">
+![Word count](/docs/imgs/word_cloud.png).
+<img src="/docs/imgs/word_cloud.png" alt="">
 
 Most popular topics are highly similar between genders, but the relative importance is different : the highest topic score for men is **business**, while for women it is **positive emotion** and for gender-diverse individuals it is **optimism**. 
 This result is in line with the tendency of our society to put pressure on women to be **likeable** and come across as nice and non-aggressive, while men do not undergo the same social phenomenon and tend to be more **direct** in their speech.
