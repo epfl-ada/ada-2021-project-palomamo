@@ -3,7 +3,7 @@ title: " "
 feature_text: |
   ## Breaking News: Gender inequality in the Press
   A study on how different genders are represented in newspapers, in terms of proportions, quote themes and comparison between English-speaking countries throughout the years 2015-2020.
-feature_image: "https://i.picsum.photos/id/56/2880/1920.jpg?hmac=BIplhYgNZ9bsjPXYhD0xx6M1yPgmg4HtthKkCeJp6Fk"
+feature_image: "imgs/background.png"
 excerpt: " "
 ---
 
@@ -87,8 +87,7 @@ Here are the most cited quote of early 2020 per gender :
 
 
 The 10 most popular topics per gender : 
-![Word count](/docs/imgs/word_cloud.png).
-<img src="/../imgs/word_cloud.png" alt="">
+{% include figure.html image="imgs/word_cloud.png" %}
 
 Most popular topics are highly similar between genders, but the relative importance is different : the highest topic score for men is **business**, while for women it is **positive emotion** and for gender-diverse individuals it is **optimism**. 
 This result is in line with the tendency of our society to put pressure on women to be **likeable** and come across as nice and non-aggressive, while men do not undergo the same social phenomenon and tend to be more **direct** in their speech.
