@@ -4,11 +4,11 @@ title:  "Breaking News : Gender Inequality in the Press"
 date:   2021-12-03 16:46:57 +0100
 categories: jekyll update
 --- 
-"A study on how different genders are represented in newspapers, in terms of proportions, quote themes and comparison between English-speaking countries throughout the years 2015-2020."
+_"A study on how different genders are represented in newspapers, in terms of proportions, quote themes and comparison between English-speaking countries throughout the years 2015-2020."_
 
-Gender representation in most work-related domains has for a long time been largely dominated by men. But in the last decades, women and gender minorities' rights and voices have gained awareness and freedom. How does this evolution translate in the newspapers? How differently women and gender minorities are represented in English newspapers compared to men?
+Gender representation in most work-related domains has for a long time been largely dominated by men. But in the last decades, women and gender diverse individuals' rights and voices have gained awareness and freedom. How does this evolution translate in the newspapers? How differently women and gender minorities are represented in English newspapers compared to men?
 
-This exploration has been conducted using the Quotebank dataset (add link), a corpus of speaker-attributed quotations extracted from millions of English news articles from the web between August 2008 and April 2020. In order to get more informations on authors of the quotations, a Wikidata set of speaker attributes (addlink) was used.
+This exploration has been conducted using the [Quotebank dataset](https://github.com/epfl-dlab/Quotebank), a corpus of speaker-attributed quotations extracted from millions of English news articles from the web between August 2008 and April 2020. In order to get more informations on authors of the quotations, a Wikidata set of speaker attributes (addlink) was used.
 
 ## Gender Representation
 
@@ -22,7 +22,8 @@ _The equality of men and women in the population is not represented. The differe
 {% include perc_female_uk_means.html %}
 _This disparity remains more or less constant throughout the 5-year span with an average between … and ….. Females are best represented in **Daily Mail** and **Daily Star** which are both tabloid newspapers._
 
-Overall it is difficult to establish a link between certain types of newspapers and how they represent women. There seems to be a general state of mind of the publisher in each journal which is not necessarily related to their content.
+Overall it is difficult to establish a link between certain types of newspapers and how they represent women. There seems to be a general tendency for the publisher in each journal which is not necessarily related to their content.
+
 *But are women the only gender underrepresented?*
 
 
@@ -42,12 +43,15 @@ The United States, India and Nigeria are all English-speaking countries located 
 {% include perc_female_countries_mean.html %}
 {% include perc_other_countries_mean.html %}
 
-_As before, a time independence is observed and no conclusion can be issued between the gender representation and the types of newspaper. However an interesting new observation can be made. The averages over the 5-year span, let it be for the woman or the gender minorities representation, differ among countries._
+_As before, a time independence is observed and no conclusion can be issued between the gender representation and the types of newspaper. However an interesting new observation can be made. The averages over the 5-year span, let it be for women or gender minorities' representation, differ among countries._
 
- This can be justified by their history and their consideration for women and gender diverse individuals.
-Nigeria still does not recognize [LGBT rights](https://en.wikipedia.org/wiki/LGBT_rights_in_Nigeria) and women face numerous [inequalities and difficulties](https://en.wikipedia.org/wiki/Women_in_Nigeria) compared to men. This is well represented here with the lowest proportion, …,  of female and gender diverse individuals. The disparity becomes even greater than in a European country like the United Kingdom or the United States with both a highest average of … where people can be seen as more open minded and understanding on the question of gender diversity. That being said, inequalities are still present everywhere. A similar analysis can be made for India where the situation for [women](https://en.wikipedia.org/wiki/Women_in_India) can also be complicated. 
+This can be justified by their history and their consideration for women and gender diverse individuals.
+Nigeria still does not recognize [LGBT rights](https://en.wikipedia.org/wiki/LGBT_rights_in_Nigeria) and women face numerous [inequalities and difficulties](https://en.wikipedia.org/wiki/Women_in_Nigeria) compared to men. This is well represented here with the lowest proportion of female (<10%) and gender diverse individuals(<0.1%). The disparity becomes even greater than in a European country like the United Kingdom, with an average above 30% for some newspapers,  where people can be seen as more open minded and understanding on the question of gender diversity. That being said, inequalities are still present everywhere. A similar analysis can be made for India where the situation for [women](https://en.wikipedia.org/wiki/Women_in_India) gender diverse individuals can also be full of difficulties and unfairness.
 
 {% include perc_female_countries_allyears.html %}
+_A small evolution can be observed only for the United Sates and the United Kingdom._
+
+Finally a certain progression is shown which demonstrate a certain gain in awareness and freedom in women and gender diverse individuals' rights and voices. But this also reveal how slow the process can be depending on the countries and their society as it has been discussed before.
 
 ## Topics analysis
 In order to further analyze the gender distribution in the press, it is interesting to study the distribution of genders based on the topics they talk about the most. The focus is solely on the UK newspapers for this more in depth analysis.
@@ -88,8 +92,8 @@ The lack of data is the origin of the rougher edges of the graph. However, we ca
 
 ## Conclusion
 
-As expected, men still represent the majority of speakers in any type of newspaper. Every country studies displays this inequality depending on their cultural background. The developing countries show a more important gap.
-However, the time span on which the analysis has been conducted is too short to display a certain progression in the representation of women and gender diverse individuals. To really show how their voices gained awareness, it would have been necessary to use some data over multiple decades. It has been a slow process and 5 years is not sufficient to capture enough important events capable of changing people’s mind.
+As expected, men still represent the majority of speakers in any type of newspaper. Every country studies display this inequality depending on their cultural background. The developing countries show a more important gap.
+However, the time span on which the analysis has been conducted is too short to display a significant progression in the representation of women and gender diverse individuals. To really show how their voices gained awareness, it would have been necessary to use some data over multiple decades. It has been a slow process and 5 years is not sufficient to capture enough important events capable of changing people’s mind. 
 
 (Topics conclusion)
 Throughout this analysis, no real evolution was found concerning topics that each gender talked about between 2015 and early 2020. It is however possible to see different lexicons for each gender. Men are in the action and business, women talk about emotions and caring, while gender minorities share their possibly difficult life experiences.
@@ -102,7 +106,7 @@ The results we found in this analysis need to be taken with a grain of salt as w
 
 *  There are very few quotes written by gender minorities, which makes it hard to draw conclusions and extrapolate the results we found for this subgroup of genders.
 
-*  TODO talk about legal rights and how hard it is to be recognized as a gender minority in most countries?
+*  TODO talk about legal rights and how hard it is to be recognized as a gender minority in most countries? (Marie: not sure since we talked about it in the first part no, i linked some articles for india and nigeria)
 
 ## Lexicon
 
