@@ -19,6 +19,7 @@ In the United Kingdom, the population consists of about 49% of women and 51% of 
 {% include counts_male_female_uk_2019.html %} 
 _The equality of men and women in the population is not represented. The difference holds for any newspaper from the tabloids to more serious daily journals._
 
+{% include perc_female_uk_allyears.html %}
 {% include perc_female_uk_means.html %}
 _This disparity remains more or less constant throughout the 5-year span with an average between … and ….. Females are best represented in **Daily Mail** and **Daily Star** which are both tabloid newspapers._
 
@@ -40,8 +41,8 @@ _Knowing that these minorities consist of a fraction between 0.1% and 2% of the 
 
 The United States, India and Nigeria are all English-speaking countries located on different continents.
 
-{% include perc_female_countries_mean.html %}
-{% include perc_other_countries_mean.html %}
+{% include perc_female_countries_means.html %}
+{% include perc_other_countries_means.html %}
 
 _As before, a time independence is observed and no conclusion can be issued between the gender representation and the types of newspaper. However an interesting new observation can be made. The averages over the 5-year span, let it be for women or gender minorities' representation, differ among countries._
 
