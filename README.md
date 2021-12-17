@@ -31,12 +31,12 @@ The file structure is shown below.
     ├── docs
     ├── README.md
 
-Some specifications: (ajouter ordre des notebookds)
+Some specifications: 
 
 - Preprocessing of the quotebank data set is done in _data_preprocessing.ipynb_ which should be run first.
 - Research questions are tackled in _gender_representation.ipynb_ and _gender_topics.ipynb_. They should be looked over in this order to follow our analysis
 - Data folders (_Quotebank_, _Project dataset_, _Filtered data_, _Merged data_, _Results_) are gitignored and have to be downloaded locally from our shared google drive or can be accessed directly with Google Colab.
-- The _scripts_ folder provides paths to our datasets, urls for our selected newspapers and commenly used functions.
+- The _scripts_ folder provides paths to our datasets, urls for our selected newspapers and commonly used functions.
 - The _docs_ folder is used to publish our related [website](https://morwald.github.io/ada_project/).
 
 ## Additional dataset
