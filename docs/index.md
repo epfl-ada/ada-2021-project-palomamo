@@ -125,7 +125,7 @@ The results we found in this analysis need to be taken with a grain of salt as w
 
 ## Lexicon
 
--  [**Non-binary** or **genderqueer** people](https://en.wikipedia.org/wiki/Non-binary_gender)  may identify themselves as an intermediate or third gender that is neither male nor female. 
+- [**Non-binary** or **genderqueer** people](https://en.wikipedia.org/wiki/Non-binary_gender)  may identify themselves as an intermediate or third gender that is neither male nor female. 
 - [**Transgender male**](https://en.wikipedia.org/wiki/Trans_man) is a man who was assigned female at birth.
 - [**Transgender female**](https://en.wikipedia.org/wiki/Trans_woman) is a woman who was assigned male at birth. 
 - [**Genderfluid** people](https://en.wikipedia.org/wiki/Non-binary_gender) often express a desire to remain flexible about their gender identity rather than committing to a single definition.
@@ -134,5 +134,5 @@ The results we found in this analysis need to be taken with a grain of salt as w
 
 
 
-__Thank You for your attention! This story was presented to you by:  Moritz Waldleben, Marie Knoepfel, Lorena Egger, Paloma Cito__
+*Thank You for your attention! This story was presented to you by:  Moritz Waldleben, Marie Knoepfel, Lorena Egger, Paloma Cito*
 
