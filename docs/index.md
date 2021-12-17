@@ -11,9 +11,9 @@ Gender representation in most work-related domains has for a long time been larg
 
 This exploration has been conducted using the [Quotebank dataset](https://github.com/epfl-dlab/Quotebank), a corpus of speaker-attributed quotations extracted from millions of English news articles from the web between August 2008 and April 2020. In order to get more informations on authors of the quotations, a Wikidata set of speaker attributes (addlink) was used.
 
-## Gender Representation
+### Gender Representation
 
-### Distribution of genders in the most read newspapers in the United Kingdom
+#### Distribution of genders in the most read newspapers in the United Kingdom
 
 In the United Kingdom, the population consists of about 49% of women and 51% of men. But this equality is not as well represented in most newspapers. With a selection of 14 newspapers, each dealing with different themes, a significant disparity in the genres of authors can be seen without exceptions. Women are underrepresented.
 
@@ -31,7 +31,7 @@ Overall it is difficult to establish a link between certain types of newspapers 
 *But are women the only gender underrepresented?*
 
 
-### Detailed view on gender minorities
+#### Detailed view on gender minorities
 The Quotebank also represent gender diverse individuals such as non-binary, transgender or genderfluid individuals (see Lexicon for more details). Statistics for the representation of those gender minorities are extremely hard to get. They either don’t exist yet or are misled due to a part of the society being still sceptical about the existence of other genders than cisgender male and female. A survey conducted in 2011 by the Equality and Human Rights Commission estimates that they consist between “0.1-2% [of the general population](https://doi.org/10.1016/j.ecl.2019.01.001) depending on the inclusion criteria and geographic location."
 
 
@@ -40,7 +40,7 @@ _Knowing that these minorities consist of a fraction between 0.1% and 2% of the 
 
 *Can these first conclusions be extended to some other countries with a completely different cultural background?*
 
-### Comparison with other countries
+#### Comparison with other countries
 
 The United States, India and Nigeria are all English-speaking countries located on different continents.
 
@@ -62,7 +62,7 @@ This supports the hypothesis that in the last decades, women and gender diverse 
 In the end, it boils down to who the journalists decide to quote. This could depend on women's roles in society, which would imply whether women are considered relevant enough to be cited.
 
 
-## Topics analysis
+### Topics analysis
 
 In order to further analyze the gender distribution in the press, it is interesting to study the distribution of genders based on the topics they talk about the most. The focus is solely on the UK newspapers for this more in depth analysis.
 To perform topic analysis, we used  [Empath](https://hci.stanford.edu/publications/2016/ethan/empath-chi-2016.pdf), a tool created by researchers at Stanford University in 2016. It uses a combination of deep learning and crowdsourcing to analyze text over 200 pre-existing categories and output the most probable topics the text is about.
@@ -106,7 +106,7 @@ As for men, it is not possible to detect any evolution in women’s topics distr
 The lack of data is the origin of the rougher edges of the graph. However, we can still notice that **negative emotions** are very high in contrast to positive ones which might be a consequence of the fact that [“LGBT respondents are less satisfied with their life than the general UK population (rating satisfaction 6.5 on average out of 10 compared with 7.7). Trans respondents had particularly low scores (around 5.4 out of 10)”](https://www.gov.uk/government/publications/national-lgbt-survey-summary-report/national-lgbt-survey-summary-report), according to an UK survey for the LGBT community in 2007.
 
 
-## Conclusion
+### Conclusion
 
 As expected, men still represent the majority of speakers in any type of newspaper. Every country studies display this inequality depending on their cultural background. The developing countries show a more important gap.
 However, the time span on which the analysis has been conducted is too short to display a significant progression in the representation of women and gender diverse individuals. To really show how their voices gained awareness, it would have been necessary to use some data over multiple decades. It has been a slow process and 5 years is not sufficient to capture enough important events capable of changing people’s mind. 
@@ -114,7 +114,7 @@ However, the time span on which the analysis has been conducted is too short to 
 
 Throughout this analysis, no real evolution was found concerning topics that each gender talked about between 2015 and early 2020. It is however possible to see different lexicons for each gender. Men are in the action and business, women talk about emotions and caring, while gender minorities share their possibly difficult life experiences.
 
-## Limitations
+### Limitations
 
 The results we found in this analysis need to be taken with a grain of salt as we encountered a few limitations and had to make some assumptions:
 
