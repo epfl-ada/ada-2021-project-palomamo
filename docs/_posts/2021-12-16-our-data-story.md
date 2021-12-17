@@ -79,7 +79,8 @@ In the following analysis we will keep in mind that the male gender is overly re
 
 Here are the most cited quote of early 2020 per gender : 
 
-#### Male : "make it impossible for me to do my job." William Barr, male, 07/02/2020
+<span style="color:rgb(102,197,204)"> **Male : "make it impossible for me to do my job." William Barr, male, 07/02/2020** </span>.
+
 #### Female : "work to become financially independent." Duchess of Sussex, female, 08/01/2020
 #### Gender-diverse : "They are standing for us, and I am immensely proud of them," Rose McGowan, non-binary, 05/01/2020
 
