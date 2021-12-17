@@ -5,7 +5,7 @@ date:   2021-12-03 16:46:57 +0100
 categories: jekyll update
 --- 
 
-<p align="center">
+
 _"A study on how different genders are represented in newspapers, in terms of proportions, quote themes and comparison between English-speaking countries throughout the years 2015-2020."_
 
 Gender representation in most work-related domains has for a long time been largely dominated by men. But in the last decades, women and gender diverse individuals' rights and voices have gained awareness and freedom. How does this evolution translate in the newspapers? How differently women and gender minorities are represented in English newspapers compared to men?
@@ -24,6 +24,8 @@ _The equality of men and women in the population is not represented. The differe
 {% include perc_female_uk_allyears.html %}
 {% include perc_female_uk_means.html %}
 _This disparity remains more or less constant throughout the 5-year span with an average between 13%   and 37%. Females are best represented in **Daily Mail** and **Daily Star** which are both tabloid newspapers._
+
+A statistical hypothesis testing on UK’s dataset on women in newspapers (more information in the notebook) shows that there is a correlation between time and the percentage of women in the following newspapers  : Daily Mirror, Daily Express, i, Financial Times and The Sun. 
 
 Overall it is difficult to establish a link between certain types of newspapers and how they represent women. There seems to be a general tendency for the publisher in each journal which is not necessarily related to their content.
 
@@ -54,7 +56,12 @@ Nigeria still does not recognize [LGBT rights](https://en.wikipedia.org/wiki/LGB
 {% include perc_female_countries_allyears.html %}
 _A small evolution can be observed only for the United Sates and the United Kingdom._
 
-Finally a certain progression is shown which demonstrate a certain gain in awareness and freedom in women and gender diverse individuals' rights and voices. But this also reveal how slow the process can be depending on the countries and their society as it has been discussed before.
+For UK, we can see an overall evolution in time. As we saw earlier, this effect is caused by only a few newspapers. The newspapers influencing this evolution do not seem to share a common content type._  
+
+This supports the hypothesis that in the last decades, women and gender diverse individuals' rights and voices have gained awareness and freedom in some countries. And this progression is also captured in the newspapers. On the other hand the process is still very slow depending on the countries and their society.  
+
+In the end, it boils down to who the journalists decide to quote. This could depend on women's roles in society, which would imply whether women are considered relevant enough to be cited.
+
 
 ## Topics analysis
 In order to further analyze the gender distribution in the press, it is interesting to study the distribution of genders based on the topics they talk about the most. The focus is solely on the UK newspapers for this more in depth analysis.
@@ -122,4 +129,4 @@ The results we found in this analysis need to be taken with a grain of salt as w
 - [**Genderfluid** people](https://en.wikipedia.org/wiki/Non-binary_gender) often express a desire to remain flexible about their gender identity rather than committing to a single definition.
 - [**Intersex** people](https://en.wikipedia.org/wiki/Intersex) are individuals born with any of several sex characteristics that, according to the Office of the United Nations High Commissioner for Human Rights, “do not fit typical binary notions of male or female bodies”.
 - [**Cisgender** people](https://en.wikipedia.org/wiki/Cisgender) have the same gender identity as their sex assigned at birth. 
-</p>
+
