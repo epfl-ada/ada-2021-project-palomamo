@@ -21,7 +21,7 @@ In the United Kingdom, the population consists of about 49% of women and 51% of 
 {% include perc_female_uk_allyears.html %}
 {% include perc_female_uk_means.html %}
 
-This disparity remains more or less constant throughout the 5-year span with an average between 13%   and 37%. Females are best represented in **Daily Mail** and **Daily Star** which are both tabloid newspapers.
+The disparity remains more or less constant throughout the 5-year span with an average between 13%   and 37%. Females are best represented in **Daily Mail** and **Daily Star** which are both tabloid newspapers.
 
 A statistical hypothesis testing on UK’s dataset on women in newspapers (more information in the notebook) shows that there is a correlation between time and the percentage of women in the following newspapers  : Daily Mirror, Daily Express, i, Financial Times and The Sun. 
 
@@ -116,9 +116,12 @@ Throughout this analysis, no real evolution was found concerning topics that eac
 
 The results we found in this analysis need to be taken with a grain of salt as we encountered a few limitations and had to make some assumptions:
 
-*  The Empath tool we used for topic detection is a tool that was published in 2016 and probably developed before that, so the pre-existing categories might not be completely up to date with our data (especially for years 2017-2020, which could make us miss some newer trending topics.
+* Some newspaper didn't offer a lot of quotes in 2015-2016 for the time analysis.  This required some more manipulation and deletion.
 
-*  There are very few quotes written by gender minorities, which makes it hard to draw conclusions and extrapolate the results we found for this subgroup of genders.
+* The Empath tool we used for topic detection is a tool that was published in 2016 and probably developed before that, so the pre-existing categories might not be completely up to date with our data (especially for years 2017-2020, which could make us miss some newer trending topics.
+
+* There are very few quotes written by gender minorities, which makes it hard to draw conclusions and extrapolate the results we found for this subgroup of genders.
+
 
 
 ## Lexicon  

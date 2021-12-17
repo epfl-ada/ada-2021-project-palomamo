@@ -4,6 +4,7 @@ A study on how different genders are represented in UK newspapers, in terms of p
 Check out our data story [here](https://morwald.github.io/ada_project/).
 
 Follow the order below for a coherent reading of our jupyter notebooks:
+
 data_preprocessing -> gender_representation -> gender_topics
 
 ## Abstract
