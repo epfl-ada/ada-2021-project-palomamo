@@ -4,6 +4,8 @@ title:  "Breaking News : Gender Inequality in the Press"
 date:   2021-12-03 16:46:57 +0100
 categories: jekyll update
 --- 
+
+<p align="center">
 _"A study on how different genders are represented in newspapers, in terms of proportions, quote themes and comparison between English-speaking countries throughout the years 2015-2020."_
 
 Gender representation in most work-related domains has for a long time been largely dominated by men. But in the last decades, women and gender diverse individuals' rights and voices have gained awareness and freedom. How does this evolution translate in the newspapers? How differently women and gender minorities are represented in English newspapers compared to men?
@@ -120,5 +122,4 @@ The results we found in this analysis need to be taken with a grain of salt as w
 - [**Genderfluid** people](https://en.wikipedia.org/wiki/Non-binary_gender) often express a desire to remain flexible about their gender identity rather than committing to a single definition.
 - [**Intersex** people](https://en.wikipedia.org/wiki/Intersex) are individuals born with any of several sex characteristics that, according to the Office of the United Nations High Commissioner for Human Rights, “do not fit typical binary notions of male or female bodies”.
 - [**Cisgender** people](https://en.wikipedia.org/wiki/Cisgender) have the same gender identity as their sex assigned at birth. 
-
-
+</p>
