@@ -1,12 +1,11 @@
 ---
-layout: post
-title:  "Breaking News : Gender Inequality in the Press"
-date:   2021-12-03 16:46:57 +0100
-categories: jekyll update
---- 
-
-
-_"A study on how different genders are represented in newspapers, in terms of proportions, quote themes and comparison between English-speaking countries throughout the years 2015-2020."_
+title: " "
+feature_text: |
+  ## Breaking News: Gender inequality in the Press
+  A study on how different genders are represented in newspapers, in terms of proportions, quote themes and comparison between English-speaking countries throughout the years 2015-2020.
+feature_image: "https://i.picsum.photos/id/56/2880/1920.jpg?hmac=BIplhYgNZ9bsjPXYhD0xx6M1yPgmg4HtthKkCeJp6Fk"
+excerpt: " "
+---
 
 Gender representation in most work-related domains has for a long time been largely dominated by men. But in the last decades, women and gender diverse individuals' rights and voices have gained awareness and freedom. How does this evolution translate in the newspapers? How differently women and gender minorities are represented in English newspapers compared to men?
 
@@ -64,31 +63,30 @@ In the end, it boils down to who the journalists decide to quote. This could dep
 
 
 ## Topics analysis
+
 In order to further analyze the gender distribution in the press, it is interesting to study the distribution of genders based on the topics they talk about the most. The focus is solely on the UK newspapers for this more in depth analysis.
 To perform topic analysis, we used  [Empath](https://hci.stanford.edu/publications/2016/ethan/empath-chi-2016.pdf), a tool created by researchers at Stanford University in 2016. It uses a combination of deep learning and crowdsourcing to analyze text over 200 pre-existing categories and output the most probable topics the text is about.
 
 
-*What is the distribution of genders in topics? *
+_What is the distribution of genders in topics?_
 
 {% include proportion_gender.html %}
 
-
 In the following analysis we will keep in mind that the male gender is overly represented, hence the topic analysis will be more precise. In the contrary, gender-diverse numbers are almost none, which will have as consequence that our analysis for this gender cannot be extended to other cases. 
 
-*What does each gender talk about?*
+
+_What does each gender talk about?_
 
 Here are the most cited quote of early 2020 per gender : 
 
-<span style="color:rgb(102,197,204)"> “[Trump's tweets] **make it impossible for me to do my job." William Barr (US politician), male, 07/02/2020**  </span>.
+<span style="color:rgb(102,197,204)"> “[Trump's tweets] **make it impossible for me to do my job.**" William Barr (US politician), male, 07/02/2020  </span>.
 
 <span style="color:rgb(246,207,113)">  "**work to become financially independent.**" Duchess of Sussex, female, 08/01/2020  </span>. 
 
 <span style="color:rgb(248,156,116)">  "**They are standing for us, and I am immensely proud of them**," Rose McGowan (actress and activist), non-binary, 05/01/2020  </span>.   
 
 
-
 The 10 most popular topics per gender : 
-
 ![Word count](/docs/imgs/word_cloud.png).
 <img src="/../imgs/word_cloud.png" alt="">
 
@@ -96,7 +94,8 @@ Most popular topics are highly similar between genders, but the relative importa
 This result is in line with the tendency of our society to put pressure on women to be **likeable** and come across as nice and non-aggressive, while men do not undergo the same social phenomenon and tend to be more **direct** in their speech.
 Concerning gender-diverse individuals, we can notice the predominance of an **emotional** lexical, tending to show that they talk more about personal experiences than facts on general news.
 
-*What’s the evolution of topics per gender throughout the past 5 years ?*
+
+_What’s the evolution of topics per gender throughout the past 5 years ?_
 
 {% include evolution_male.html %}
 Topics percentages are generally constant, with a majority of *positive* sentiments related to *actions* and *achievements*.
@@ -113,7 +112,7 @@ The lack of data is the origin of the rougher edges of the graph. However, we ca
 As expected, men still represent the majority of speakers in any type of newspaper. Every country studies display this inequality depending on their cultural background. The developing countries show a more important gap.
 However, the time span on which the analysis has been conducted is too short to display a significant progression in the representation of women and gender diverse individuals. To really show how their voices gained awareness, it would have been necessary to use some data over multiple decades. It has been a slow process and 5 years is not sufficient to capture enough important events capable of changing people’s mind. 
 
-(Topics conclusion)
+
 Throughout this analysis, no real evolution was found concerning topics that each gender talked about between 2015 and early 2020. It is however possible to see different lexicons for each gender. Men are in the action and business, women talk about emotions and caring, while gender minorities share their possibly difficult life experiences.
 
 ## Limitations
@@ -132,5 +131,4 @@ The results we found in this analysis need to be taken with a grain of salt as w
 - [**Transgender female**](https://en.wikipedia.org/wiki/Trans_woman) is a woman who was assigned male at birth. 
 - [**Genderfluid** people](https://en.wikipedia.org/wiki/Non-binary_gender) often express a desire to remain flexible about their gender identity rather than committing to a single definition.
 - [**Intersex** people](https://en.wikipedia.org/wiki/Intersex) are individuals born with any of several sex characteristics that, according to the Office of the United Nations High Commissioner for Human Rights, “do not fit typical binary notions of male or female bodies”.
-- [**Cisgender** people](https://en.wikipedia.org/wiki/Cisgender) have the same gender identity as their sex assigned at birth. 
-
+- [**Cisgender** people](https://en.wikipedia.org/wiki/Cisgender) have the same gender identity as their sex assigned at birth.
