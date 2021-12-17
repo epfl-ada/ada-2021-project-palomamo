@@ -123,7 +123,8 @@ The results we found in this analysis need to be taken with a grain of salt as w
 *  There are very few quotes written by gender minorities, which makes it hard to draw conclusions and extrapolate the results we found for this subgroup of genders.
 
 
-## Lexicon
+## Lexicon  
+
 
 - [**Non-binary** or **genderqueer** people](https://en.wikipedia.org/wiki/Non-binary_gender)  may identify themselves as an intermediate or third gender that is neither male nor female. 
 - [**Transgender male**](https://en.wikipedia.org/wiki/Trans_man) is a man who was assigned female at birth.
@@ -134,5 +135,5 @@ The results we found in this analysis need to be taken with a grain of salt as w
 
 
 
-*Thank You for your attention! This story was presented to you by:  Moritz Waldleben, Marie Knoepfel, Lorena Egger, Paloma Cito*
+*Thank You for your attention! This story was presented to you by:  Moritz Waldleben, Marie Knoepfel, Lorena Egger and Paloma Cito.*
 
