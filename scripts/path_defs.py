@@ -47,25 +47,6 @@ MERGED_QUOTES_US_2016_PATH = 'Merged data/quotes-2016-us.json.bz2'
 FILTERED_QUOTES_US_2015_PATH = 'Filtered data/quotes-2015-us.json.bz2'
 MERGED_QUOTES_US_2015_PATH = 'Merged data/quotes-2015-us.json.bz2'
 
-# AU data
-FILTERED_QUOTES_AU_2020_PATH = 'Filtered data/quotes-2020-au.json.bz2'
-MERGED_QUOTES_AU_2020_PATH = 'Merged data/quotes-2020-au.json.bz2'
-
-FILTERED_QUOTES_AU_2019_PATH = 'Filtered data/quotes-2019-au.json.bz2'
-MERGED_QUOTES_AU_2019_PATH = 'Merged data/quotes-2019-au.json.bz2'
-
-FILTERED_QUOTES_AU_2018_PATH = 'Filtered data/quotes-2018-au.json.bz2'
-MERGED_QUOTES_AU_2018_PATH = 'Merged data/quotes-2018-au.json.bz2'
-
-FILTERED_QUOTES_AU_2017_PATH = 'Filtered data/quotes-2017-au.json.bz2'
-MERGED_QUOTES_AU_2017_PATH = 'Merged data/quotes-2017-au.json.bz2'
-
-FILTERED_QUOTES_AU_2016_PATH = 'Filtered data/quotes-2016-au.json.bz2'
-MERGED_QUOTES_AU_2016_PATH = 'Merged data/quotes-2016-au.json.bz2'
-
-FILTERED_QUOTES_AU_2015_PATH = 'Filtered data/quotes-2015-au.json.bz2'
-MERGED_QUOTES_AU_2015_PATH = 'Merged data/quotes-2015-au.json.bz2'
-
 # IN data
 FILTERED_QUOTES_IN_2020_PATH = 'Filtered data/quotes-2020-in.json.bz2'
 MERGED_QUOTES_IN_2020_PATH = 'Merged data/quotes-2020-in.json.bz2'
@@ -107,7 +88,6 @@ MERGED_QUOTES_NG_2015_PATH = 'Merged data/quotes-2015-ng.json.bz2'
 # Results gender representation
 GENDER_REPRESENTATION_UK_2015_TO_2020_PATH = 'Results/gender-representation-2015-2020-uk.pkl'
 GENDER_REPRESENTATION_US_2015_TO_2020_PATH = 'Results/gender-representation-2015-2020-us.pkl'
-GENDER_REPRESENTATION_AU_2015_TO_2020_PATH = 'Results/gender-representation-2015-2020-au.pkl'
 GENDER_REPRESENTATION_IN_2015_TO_2020_PATH = 'Results/gender-representation-2015-2020-in.pkl'
 GENDER_REPRESENTATION_NG_2015_TO_2020_PATH = 'Results/gender-representation-2015-2020-ng.pkl'
 
