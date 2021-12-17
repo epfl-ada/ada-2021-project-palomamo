@@ -21,7 +21,7 @@ _The equality of men and women in the population is not represented. The differe
 
 {% include perc_female_uk_allyears.html %}
 {% include perc_female_uk_means.html %}
-_This disparity remains more or less constant throughout the 5-year span with an average between … and ….. Females are best represented in **Daily Mail** and **Daily Star** which are both tabloid newspapers._
+_This disparity remains more or less constant throughout the 5-year span with an average between 13%   and 37%. Females are best represented in **Daily Mail** and **Daily Star** which are both tabloid newspapers._
 
 Overall it is difficult to establish a link between certain types of newspapers and how they represent women. There seems to be a general tendency for the publisher in each journal which is not necessarily related to their content.
 
@@ -61,19 +61,22 @@ To perform topic analysis, we used  [Empath](https://hci.stanford.edu/publicatio
 
 *What is the distribution of genders in topics? *
 
-TODO : Include pie charts
+{% include proportion_gender.html %}
+
 
 In the following analysis we will keep in mind that the male gender is overly represented, hence the topic analysis will be more precise. In the contrary, gender-diverse numbers are almost none, which will have as consequence that our analysis for this gender cannot be extended to other cases. 
 
 *What does each gender talk about?*
-TODO : Most cited quote 2020 minorities/women/men
-Male : "make it impossible for me to do my job." William Barr, 2020-02-07
-Female : "work to become financially independent." Duchess of Sussex, 2020-01-08
-Gender-diverse : "They are standing for us, and I am immensely proud of them," Rose McGowan, 2020-01-05
 
-10 most popular topics per gender : 
+Here are the most cited quote of early 2020 per gender : 
 
-<img src=”{{site.base_folder}}/_includes/word_cloud.png”>
+Male : "make it impossible for me to do my job." William Barr, male, 07/02/2020
+Female : "work to become financially independent." Duchess of Sussex, female, 08/01/2020
+Gender-diverse : "They are standing for us, and I am immensely proud of them," Rose McGowan, non-binary, 05/01/2020
+
+The 10 most popular topics per gender : 
+
+<img src=”word_cloud.png”>
 
 Most popular topics are highly similar between genders, but the relative importance is different : the highest topic score for men is **business**, while for women it is **positive emotion** and for gender-diverse individuals it is **optimism**. 
 This result is in line with the tendency of our society to put pressure on women to be **likeable** and come across as nice and non-aggressive, while men do not undergo the same social phenomenon and tend to be more **direct** in their speech.
@@ -107,7 +110,6 @@ The results we found in this analysis need to be taken with a grain of salt as w
 
 *  There are very few quotes written by gender minorities, which makes it hard to draw conclusions and extrapolate the results we found for this subgroup of genders.
 
-*  TODO talk about legal rights and how hard it is to be recognized as a gender minority in most countries? (Marie: not sure since we talked about it in the first part no, i linked some articles for india and nigeria)
 
 ## Lexicon
 
@@ -117,3 +119,5 @@ The results we found in this analysis need to be taken with a grain of salt as w
 - [**Genderfluid** people](https://en.wikipedia.org/wiki/Non-binary_gender) often express a desire to remain flexible about their gender identity rather than committing to a single definition.
 - [**Intersex** people](https://en.wikipedia.org/wiki/Intersex) are individuals born with any of several sex characteristics that, according to the Office of the United Nations High Commissioner for Human Rights, “do not fit typical binary notions of male or female bodies”.
 - [**Cisgender** people](https://en.wikipedia.org/wiki/Cisgender) have the same gender identity as their sex assigned at birth. 
+
+
