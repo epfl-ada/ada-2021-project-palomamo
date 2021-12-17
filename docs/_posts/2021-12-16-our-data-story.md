@@ -33,7 +33,7 @@ Overall it is difficult to establish a link between certain types of newspapers 
 
 
 ### Detailed view on gender minorities
-The Quotebank also represent gender diverse individuals such as non-binary, transgender or genderfluid individuals (see Lexicon for more details)(add link to lexicon if possible). Statistics for the representation of those gender minorities are extremely hard to get. They either don’t exist yet or are misled due to a part of the society being still sceptical about the existence of other genders than cisgender male and female. A survey conducted in 2011 by the Equality and Human Rights Commission estimates that they consist between “0.1-2% [of the general population](https://doi.org/10.1016/j.ecl.2019.01.001) depending on the inclusion criteria and geographic location."
+The Quotebank also represent gender diverse individuals such as non-binary, transgender or genderfluid individuals (see Lexicon for more details). Statistics for the representation of those gender minorities are extremely hard to get. They either don’t exist yet or are misled due to a part of the society being still sceptical about the existence of other genders than cisgender male and female. A survey conducted in 2011 by the Equality and Human Rights Commission estimates that they consist between “0.1-2% [of the general population](https://doi.org/10.1016/j.ecl.2019.01.001) depending on the inclusion criteria and geographic location."
 
 
 {% include counts_other_uk_2019.html %} 
@@ -79,11 +79,11 @@ In the following analysis we will keep in mind that the male gender is overly re
 
 Here are the most cited quote of early 2020 per gender : 
 
-<span style="color:rgb(102,197,204)"> ** “[Trump's tweets] make it impossible for me to do my job." William Barr (US politician), male, 07/02/2020** </span>.
+<span style="color:rgb(102,197,204)"> “[Trump's tweets] **make it impossible for me to do my job." William Barr (US politician), male, 07/02/2020**  </span>.
 
-<span style="color:rgb(246,207,113)">  ** "work to become financially independent." Duchess of Sussex, female, 08/01/2020** </span>. 
+<span style="color:rgb(246,207,113)">  "**work to become financially independent.**" Duchess of Sussex, female, 08/01/2020  </span>. 
 
-<span style="color:rgb(248,156,116)">  **"They are standing for us, and I am immensely proud of them," Rose McGowan (actress and activist), non-binary, 05/01/2020** </span>.   
+<span style="color:rgb(248,156,116)">  "**They are standing for us, and I am immensely proud of them**," Rose McGowan (actress and activist), non-binary, 05/01/2020  </span>.   
 
 
 
@@ -124,7 +124,6 @@ The results we found in this analysis need to be taken with a grain of salt as w
 
 *  There are very few quotes written by gender minorities, which makes it hard to draw conclusions and extrapolate the results we found for this subgroup of genders.
 
-*  TODO talk about legal rights and how hard it is to be recognized as a gender minority in most countries? (Marie: not sure since we talked about it in the first part no, i linked some articles for india and nigeria)
 
 ## Lexicon
 
