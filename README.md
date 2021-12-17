@@ -1,6 +1,11 @@
 # Breaking News: Gender inequality in the press
 A study on how different genders are represented in UK newspapers, in terms of proportions, quote themes and comparison to other countries throughout the years 2015-2020.
 
+Check out our data story [here](https://morwald.github.io/ada_project/).
+
+Follow the order below for a coherent reading of our jupyter notebooks:
+data_preprocessing -> gender_representation -> gender_topics
+
 ## Abstract
 Gender representation in most work-related domains has for a long time been largely dominated by men. But in the last decades, women and gender diverse individuals' rights and voices have gained awareness and freedom. We want to analyze how this evolution translates in the newspapers, more precisely in the UK. In this project, we aim to study how differently women are represented in English newspapers compared to men, its evolution over the last five years, as well as the representation of gender minorities. The first aspect to consider is the proportion of quotes depending on the gender. Then, we will extract the most popular subjects deoending on genders using a machine learning tool called Empath. Via this analysis we hope to extract some interesting information and raise awareness over women and gender minorities' representation.
 
@@ -35,7 +40,7 @@ Some specifications:
 
 - Preprocessing of the quotebank data set is done in _data_preprocessing.ipynb_ which should be run first.
 - Research questions are tackled in _gender_representation.ipynb_ and _gender_topics.ipynb_. They should be looked over in this order to follow our analysis.
-- Data folders (_Quotebank_, _Project dataset_, _Filtered data_, _Merged data_, _Results_) are gitignored and have to be downloaded locally from our shared google drive or can be accessed directly with Google Colab.
+- Data folders (_Quotebank_, _Project dataset_, _Filtered data_, _Merged data_, _Data with topics_, _Results_) are gitignored and have to be downloaded locally from our shared google drive or can be accessed directly with Google Colab.
 - The _scripts_ folder provides paths to our datasets, urls for our selected newspapers and commonly used functions.
 - The _docs_ folder is used to publish our related [website](https://morwald.github.io/ada_project/).
 
@@ -50,6 +55,6 @@ Next, we want to expand our data and add additional information about our speake
 For the next part, we used some visualisation and statistical tools such as hypothesis testing to ouptut a gender representation depending on time and the different newspapers. To retrieve the most popular subjects for each gender, we used a machine learning tool called **Empath**. It was created by researchers at Stanford University in 2016. It uses a combination of deep learning and crowdsourcing to analyze text over 200 pre-existing categories and output the most probable topics the text is about. Finally, some visualisation and statistical tools were needed again to extract information from the comparison of resulting data.
  
 
-## Update from milestone 2
+## Updates from milestone 2
 - More newspapers for the UK and further analysis on the US, India and Nigeria.
 - The choice of the machine learning tool **Empath**.
