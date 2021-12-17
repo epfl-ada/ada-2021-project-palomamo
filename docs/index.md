@@ -2,14 +2,14 @@
 title: " "
 feature_text: |
   ## Breaking News: Gender inequality in the Press
-  A study on how different genders are represented in newspapers, in terms of proportions, quote topics and comparison between English-speaking countries throughout the years 2015-2020.
+  A study on how different genders are represented in newspapers, in terms of proportions, quote themes and comparison between English-speaking countries throughout the years 2015-2020.
 feature_image: "imgs/background.png"
 excerpt: " "
 ---
 
 Gender representation in most work-related domains has for a long time been largely dominated by men. But in the last decades, women and gender diverse individuals' rights and voices have gained awareness and freedom. How does this evolution translate in the newspapers? How differently women and gender minorities are represented in English newspapers compared to men?
 
-This exploration has been conducted using the [Quotebank dataset](https://github.com/epfl-dlab/Quotebank), a corpus of speaker-attributed quotations extracted from millions of English news articles from the web between August 2008 and April 2020. We will use the data from 2015 up to 2020. In order to get more informations on authors of the quotations, a Wikidata set of speaker attributes (addlink) was used.
+This exploration has been conducted using the [Quotebank dataset](https://github.com/epfl-dlab/Quotebank), a corpus of speaker-attributed quotations extracted from millions of English news articles from the web between August 2008 and April 2020. In order to get more informations on authors of the quotations, a Wikidata set of speaker attributes (addlink) was used.
 
 ## Gender Representation
 
@@ -18,14 +18,13 @@ This exploration has been conducted using the [Quotebank dataset](https://github
 In the United Kingdom, the population consists of about 49% of women and 51% of men. But this equality is not as well represented in most newspapers. With a selection of 14 newspapers, each dealing with different themes, a significant disparity in the genres of authors can be seen without exceptions. Women are underrepresented.
 
 {% include counts_male_female_uk_2019.html %} 
-_The equality of men and women in the population is not represented. The difference holds for any newspaper from the tabloids to more serious daily journals._  
+_The equality of men and women in the population is not represented. The difference holds for any newspaper from the tabloids to more serious daily journals._
 
-For the following graphs, double-click on a specific newspaper name to remove the other newspapers and see it more clearly. Double click on the graph to go back to the default mode. You can zoom as well by dragging your mouse on the part of the graph you wish to amplify. 
 {% include perc_female_uk_allyears.html %}
 {% include perc_female_uk_means.html %}
 _This disparity remains more or less constant throughout the 5-year span with an average between 13%   and 37%. Females are best represented in **Daily Mail** and **Daily Star** which are both tabloid newspapers._
 
-A statistical hypothesis testing on UK’s dataset on women in newspapers (more information in the notebook) shows that there is a correlation between time and the percentage of women in the following newspapers  : Daily Mirror, Daily Express, i, Financial Times and The Sun. The other newspapers show no sign of correlation, meaning they do not change with time.
+A statistical hypothesis testing on UK’s dataset on women in newspapers (more information in the notebook) shows that there is a correlation between time and the percentage of women in the following newspapers  : Daily Mirror, Daily Express, i, Financial Times and The Sun. 
 
 Overall it is difficult to establish a link between certain types of newspapers and how they represent women. There seems to be a general tendency for the publisher in each journal which is not necessarily related to their content.
 
@@ -33,13 +32,11 @@ Overall it is difficult to establish a link between certain types of newspapers 
 
 
 ### Detailed view on gender minorities
-The Quotebank also represent gender diverse individuals such as non-binary, transgender or genderfluid individuals (see the Lexicon at the bottom for more details). Statistics for the representation of those gender minorities are extremely hard to get. They either don’t exist yet or are misled due to a part of the society being still sceptical about the existence of other genders than cisgender male and female. A survey conducted in 2011 by the Equality and Human Rights Commission estimates that they consist between “0.1-2% [of the general population](https://doi.org/10.1016/j.ecl.2019.01.001) depending on the inclusion criteria and geographic location."
+The Quotebank also represent gender diverse individuals such as non-binary, transgender or genderfluid individuals (see Lexicon for more details). Statistics for the representation of those gender minorities are extremely hard to get. They either don’t exist yet or are misled due to a part of the society being still sceptical about the existence of other genders than cisgender male and female. A survey conducted in 2011 by the Equality and Human Rights Commission estimates that they consist between “0.1-2% [of the general population](https://doi.org/10.1016/j.ecl.2019.01.001) depending on the inclusion criteria and geographic location."
 
 
 {% include counts_other_uk_2019.html %} 
-
-Knowing that these minorities consist of a fraction between 0.1% and 2% of the population, it is more difficult to assess if they are really underrepresented in the press. For the selection of newspapers the representation stays constant throughout the 5-year span and the average fluctuates between 0.05 and 0.8% which corresponds to the reality.  
-
+_Knowing that these minorities consist of a fraction between 0.1% and 2% of the population, it is more difficult to assess if they are really underrepresented in the press. For the selection of newspapers the representation stays constant throughout the 5-year span and the average fluctuates between 0.05 and 0.8% which corresponds to the reality._
 
 *Can these first conclusions be extended to some other countries with a completely different cultural background?*
 
@@ -58,8 +55,7 @@ Nigeria still does not recognize [LGBT rights](https://en.wikipedia.org/wiki/LGB
 {% include perc_female_countries_allyears.html %}
 _A small evolution can be observed only for the United Sates and the United Kingdom._
 
-For UK, we can see an overall evolution in time. As we saw earlier, this effect is caused by only a few newspapers. The newspapers influencing this evolution do not seem to share a common content type.  
-
+For UK, we can see an overall evolution in time. As we saw earlier, this effect is caused by only a few newspapers. The newspapers influencing this evolution do not seem to share a common content type._  
 
 This supports the hypothesis that in the last decades, women and gender diverse individuals' rights and voices have gained awareness and freedom in some countries. And this progression is also captured in the newspapers. On the other hand the process is still very slow depending on the countries and their society.  
 
@@ -101,13 +97,13 @@ Concerning gender-diverse individuals, we can notice the predominance of an **em
 _What’s the evolution of topics per gender throughout the past 5 years ?_
 
 {% include evolution_male.html %}
-Topics percentages are generally constant, with a majority of *positive* sentiments related to *actions* and *achievements*.
+Topics percentages are generally constant, with a majority of **positive** sentiments related to **actions** and **achievements**.
 
 {% include evolution_female.html %}
-As for men, it is not possible to detect any evolution in women’s topics distribution. The *emotions* lexicon is the prevalent one here with topics related to *family and friends* and *communication*.
+As for men, it is not possible to detect any evolution in women’s topics distribution. The **emotions** lexicon is the prevalent one here with topics related to **family and friends** and **communication**.
 
 {% include evolution_diverse.html %}
-The lack of data is the origin of the rougher edges of the graph. However, we can still notice that *negative emotions* are very high in contrast to positive ones which might be a consequence of the fact that [“LGBT respondents are less satisfied with their life than the general UK population (rating satisfaction 6.5 on average out of 10 compared with 7.7). Trans respondents had particularly low scores (around 5.4 out of 10)”](https://www.gov.uk/government/publications/national-lgbt-survey-summary-report/national-lgbt-survey-summary-report), according to an UK survey for the LGBT community in 2007.
+The lack of data is the origin of the rougher edges of the graph. However, we can still notice that **negative emotions** are very high in contrast to positive ones which might be a consequence of the fact that [“LGBT respondents are less satisfied with their life than the general UK population (rating satisfaction 6.5 on average out of 10 compared with 7.7). Trans respondents had particularly low scores (around 5.4 out of 10)”](https://www.gov.uk/government/publications/national-lgbt-survey-summary-report/national-lgbt-survey-summary-report), according to an UK survey for the LGBT community in 2007.
 
 
 ## Conclusion
@@ -129,9 +125,14 @@ The results we found in this analysis need to be taken with a grain of salt as w
 
 ## Lexicon
 
--[**Non-binary** or **genderqueer** people](https://en.wikipedia.org/wiki/Non-binary_gender)  may identify themselves as an intermediate or third gender that is neither male nor female. 
+-  [**Non-binary** or **genderqueer** people](https://en.wikipedia.org/wiki/Non-binary_gender)  may identify themselves as an intermediate or third gender that is neither male nor female. 
 - [**Transgender male**](https://en.wikipedia.org/wiki/Trans_man) is a man who was assigned female at birth.
 - [**Transgender female**](https://en.wikipedia.org/wiki/Trans_woman) is a woman who was assigned male at birth. 
 - [**Genderfluid** people](https://en.wikipedia.org/wiki/Non-binary_gender) often express a desire to remain flexible about their gender identity rather than committing to a single definition.
 - [**Intersex** people](https://en.wikipedia.org/wiki/Intersex) are individuals born with any of several sex characteristics that, according to the Office of the United Nations High Commissioner for Human Rights, “do not fit typical binary notions of male or female bodies”.
-- [**Cisgender** people](https://en.wikipedia.org/wiki/Cisgender) have the same gender identity as their sex assigned at birth.
+- [**Cisgender** people](https://en.wikipedia.org/wiki/Cisgender) have the same gender identity as their sex assigned at birth.   
+
+
+
+__Thank You for your attention! This story was presented to you by:  Moritz Waldleben, Marie Knoepfel, Lorena Egger, Paloma Cito__
+
