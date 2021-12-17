@@ -9,20 +9,19 @@ excerpt: " "
 
 Gender representation in most work-related domains has for a long time been largely dominated by men. But in the last decades, women and gender diverse individuals' rights and voices have gained awareness and freedom. How does this evolution translate in the newspapers? How differently women and gender minorities are represented in English newspapers compared to men?
 
-This exploration has been conducted using the [Quotebank dataset](https://github.com/epfl-dlab/Quotebank), a corpus of speaker-attributed quotations extracted from millions of English news articles from the web between August 2008 and April 2020. In order to get more informations on authors of the quotations, a Wikidata set of speaker attributes (addlink) was used.
+This exploration has been conducted using the [Quotebank dataset](https://github.com/epfl-dlab/Quotebank), a corpus of speaker-attributed quotations extracted from millions of English news articles from the web between August 2008 and April 2020. In order to get more informations on authors of the quotations, a [Wikidata set of speaker attributes](https://www.wikidata.org/wiki/Wikidata:Main_Page).
 
 ### Gender Representation
 
 #### Distribution of genders in the most read newspapers in the United Kingdom
 
-In the United Kingdom, the population consists of about 49% of women and 51% of men. But this equality is not as well represented in most newspapers. With a selection of 14 newspapers, each dealing with different themes, a significant disparity in the genres of authors can be seen without exceptions. Women are underrepresented.
+In the United Kingdom, the population consists of about 49% of women and 51% of men. But this equality is not as well represented in most newspapers. With a selection of 14 newspapers, from the tabloids to more serious daily journals, a significant disparity in the genres of authors can be seen without exceptions. Women are underrepresented.
 
 {% include counts_male_female_uk_2019.html %} 
-_The equality of men and women in the population is not represented. The difference holds for any newspaper from the tabloids to more serious daily journals._
-
 {% include perc_female_uk_allyears.html %}
 {% include perc_female_uk_means.html %}
-_This disparity remains more or less constant throughout the 5-year span with an average between 13%   and 37%. Females are best represented in **Daily Mail** and **Daily Star** which are both tabloid newspapers._
+
+This disparity remains more or less constant throughout the 5-year span with an average between 13%   and 37%. Females are best represented in **Daily Mail** and **Daily Star** which are both tabloid newspapers.
 
 A statistical hypothesis testing on UK’s dataset on women in newspapers (more information in the notebook) shows that there is a correlation between time and the percentage of women in the following newspapers  : Daily Mirror, Daily Express, i, Financial Times and The Sun. 
 
@@ -36,7 +35,7 @@ The Quotebank also represent gender diverse individuals such as non-binary, tran
 
 
 {% include counts_other_uk_2019.html %} 
-_Knowing that these minorities consist of a fraction between 0.1% and 2% of the population, it is more difficult to assess if they are really underrepresented in the press. For the selection of newspapers the representation stays constant throughout the 5-year span and the average fluctuates between 0.05 and 0.8% which corresponds to the reality._
+Knowing that these minorities consist of a fraction between 0.1% and 2% of the population, it is more difficult to assess if they are really underrepresented in the press. For the selection of newspapers the representation stays constant throughout the 5-year span and the average fluctuates between 0.05 and 0.8% which corresponds to the reality.
 
 *Can these first conclusions be extended to some other countries with a completely different cultural background?*
 
@@ -47,15 +46,14 @@ The United States, India and Nigeria are all English-speaking countries located 
 {% include perc_female_countries_means.html %}
 {% include perc_other_countries_means.html %}
 
-_As before, a time independence is observed and no conclusion can be issued between the gender representation and the types of newspaper. However an interesting new observation can be made. The averages over the 5-year span, let it be for women or gender minorities' representation, differ among countries._
+As before, a time independence is observed and no conclusion can be issued between the gender representation and the types of newspaper. However an interesting new observation can be made. The averages over the 5-year span, let it be for women or gender minorities' representation, differ among countries.
 
 This can be justified by their history and their consideration for women and gender diverse individuals.
-Nigeria still does not recognize [LGBT rights](https://en.wikipedia.org/wiki/LGBT_rights_in_Nigeria) and women face numerous [inequalities and difficulties](https://en.wikipedia.org/wiki/Women_in_Nigeria) compared to men. This is well represented here with the lowest proportion of female (<10%) and gender diverse individuals(<0.1%). The disparity becomes even greater than in a European country like the United Kingdom, with an average above 30% for some newspapers,  where people can be seen as more open minded and understanding on the question of gender diversity. That being said, inequalities are still present everywhere. A similar analysis can be made for India where the situation for [women](https://en.wikipedia.org/wiki/Women_in_India) gender diverse individuals can also be full of difficulties and unfairness.
+Nigeria still does not recognize [LGBT rights](https://en.wikipedia.org/wiki/LGBT_rights_in_Nigeria) and women face numerous [inequalities and difficulties](https://en.wikipedia.org/wiki/Women_in_Nigeria) compared to men. This is well represented here with the lowest proportion of female (<10%) and gender diverse individuals(<0.1%). The disparity becomes even greater than in a European country like the United Kingdom, with an average above 30% for some newspapers,  where people can be seen as more open minded and understanding on the question of gender diversity. That being said, inequalities are still present everywhere. A similar analysis can be made for India where the situation for [women](https://en.wikipedia.org/wiki/Women_in_India) and gender diverse individuals can also be full of difficulties and unfairness.
 
 {% include perc_female_countries_allyears.html %}
-_A small evolution can be observed only for the United Sates and the United Kingdom._
 
-For UK, we can see an overall evolution in time. As we saw earlier, this effect is caused by only a few newspapers. The newspapers influencing this evolution do not seem to share a common content type._  
+For the United Kingdom, we can see an overall evolution in time. As we saw earlier, this effect is caused by only a few newspapers. The newspapers influencing this evolution do not seem to share a common content type. 
 
 This supports the hypothesis that in the last decades, women and gender diverse individuals' rights and voices have gained awareness and freedom in some countries. And this progression is also captured in the newspapers. On the other hand the process is still very slow depending on the countries and their society.  
 
