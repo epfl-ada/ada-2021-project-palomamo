@@ -36,7 +36,8 @@ The Quotebank also represent gender diverse individuals such as non-binary, tran
 
 
 {% include counts_other_uk_2019.html %} 
-_Knowing that these minorities consist of a fraction between 0.1% and 2% of the population, it is more difficult to assess if they are really underrepresented in the press. For the selection of newspapers the representation stays constant throughout the 5-year span and the average fluctuates between 0.05 and 0.8% which corresponds to the reality._
+
+Knowing that these minorities consist of a fraction between 0.1% and 2% of the population, it is more difficult to assess if they are really underrepresented in the press. For the selection of newspapers the representation stays constant throughout the 5-year span and the average fluctuates between 0.05 and 0.8% which corresponds to the reality._
 
 *Can these first conclusions be extended to some other countries with a completely different cultural background?*
 
