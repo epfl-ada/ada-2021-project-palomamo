@@ -76,7 +76,9 @@ Gender-diverse : "They are standing for us, and I am immensely proud of them," R
 
 The 10 most popular topics per gender : 
 
-<img src=”word_cloud.png”>
+<img src=”/docs/imgs/word_cloud.png”>
+
+<img src="/assets/images/your-image.jpg" alt="">
 
 Most popular topics are highly similar between genders, but the relative importance is different : the highest topic score for men is **business**, while for women it is **positive emotion** and for gender-diverse individuals it is **optimism**. 
 This result is in line with the tendency of our society to put pressure on women to be **likeable** and come across as nice and non-aggressive, while men do not undergo the same social phenomenon and tend to be more **direct** in their speech.
@@ -110,6 +112,7 @@ The results we found in this analysis need to be taken with a grain of salt as w
 
 *  There are very few quotes written by gender minorities, which makes it hard to draw conclusions and extrapolate the results we found for this subgroup of genders.
 
+*  TODO talk about legal rights and how hard it is to be recognized as a gender minority in most countries? (Marie: not sure since we talked about it in the first part no, i linked some articles for india and nigeria)
 
 ## Lexicon
 
